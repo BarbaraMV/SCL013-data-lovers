@@ -1,0 +1,100 @@
+*{
+    margin-top: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  html {
+    text-align: center;
+    font-size: 62.5%; /*16px = 100%, 10px = 62.5% - 1rem = 10px*/
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+  }
+  
+  header {
+    text-align: center;
+    margin: 0 auto;
+  
+  }
+  
+  body {
+    background-image:url(https://vignette.wikia.nocookie.net/es.pokemon/images/5/50/Wiki-background/revision/latest?cb=20190616112909);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+    margin-left: 8% ;
+    margin-right: 8%;
+    display: flex
+  }
+  
+  
+  
+  #welcome-box {
+    background-image: url(https://external-preview.redd.it/z7_wYb9-YSvt0pDJlDIu8iuK_aWdqZPg0wvrGdwNvBw.png?auto=webp&s=b40bf3d0bccf7fe4f8dc601182710ca34eac2222);
+    background-size: contain;
+    align: center;
+    box-shadow: blueviolet;
+    height: 40rem;
+    resize: none;
+    padding: 6rem;
+    outline: none;
+    border: solid 2px blue;
+    border-radius: 3rem 3rem 3rem 3rem;
+    moz-border-radius: 3rem 3rem 3rem 3rem;
+    webkit-border-radius: 3rem 3rem 3rem 3rem;
+    width: 70%;  
+    justify-content: center;
+    
+    
+  }
+  
+  #homepage-btn, #basicGuide-btn, #pokedex-btn, #distanceWalk-btn, #moves-btn {
+    background-color: lightblue;
+    padding: 1rem;
+    margin: 1rem;
+    outline: none; /*to disable square-shaped transparent outline*/
+    border: solid 2px blue;
+    border-radius: 3rem 3rem 3rem 3rem;
+    moz-border-radius: 3rem 3rem 3rem 3rem;
+    webkit-border-radius: 3rem 3rem 3rem 3rem;
+    width: 15rem;
+    cursor: pointer;
+    
+  
+      
+  }
+  
+  #search-btn, #searchGo-btn, #searchInput {
+    background-color: lightblue;
+    padding: 1rem;
+    margin: 0;
+    outline: none; /*to disable square-shaped transparent outline*/
+    border: solid 2px blue;
+    border-radius: 5.7rem 5.7rem 5.7rem 5.7rem;
+    moz-border-radius: 5.7rem 5.7rem 5.7rem 5.7rem;
+    webkit-border-radius: 5.7rem 5.7rem 5.7rem 5.7rem;
+    width: display area;
+        
+    }
+  
+  #user-box {
+    background-color: lightblue;
+    background-size: contain;
+    align: center;
+    box-shadow: blueviolet;
+    height: 40rem;
+    resize: none;
+    padding: 6rem;
+    outline: none;
+    border: solid 2px blue;
+    border-radius: 3rem 3rem 3rem 3rem;
+    moz-border-radius: 3rem 3rem 3rem 3rem;
+    webkit-border-radius: 3rem 3rem 3rem 3rem;
+    width: 70%;  
+    justify-content: center;
+    opacity: 0.7;
+    
+  }
