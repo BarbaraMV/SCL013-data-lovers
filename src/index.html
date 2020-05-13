@@ -1,152 +1,134 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <!-- esto hace que no se reduzca el tamaño proporcional, sino que siempre lo muestre a 100% para ver si es responsive-->
+    <meta name= "viewport" content="width-device-with, initial-scale=1">
     <title>Pokemaníaco</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <link rel= "shorcut icon" href="pokemon/iconos pokemaniaco/shorcuticon.png">
+  
+  <link rel= "shorcut icon" href="http://getdrawings.com/free-icon-bw/pokemon-icon-9.png">
   <link href="https://fonts.google.com/specimen/Baloo+Tamma+2" rel="stylesheet">
+</head>
   <body>
-    <div id="root">
-    
-      <a href="index.html"><img src="https://puregaming.es/wp-content/uploads/2017/01/banner.png" alt="banner-pokemon"></a>
-      
-      <header>
-        <!--botones de inincio bajo el banner-->
+    <header class="header">
+      <div class="container logo-nav-container">
+        <a href="#" class= "logo"><img src= "https://www.pokencyclopedia.info/sprites/spin-off/ico_shuffle/ico_shuffle_002.png"></a>
+        <nav class="navigation">
+          <ul>
+          <li><a href="#containerHome">Inicio</a></li>
+          <li><a href="#containerGuide">Guia de Usuario</a></li>
+          <li><a href="#containerPokedex">Pokedéx</a></li>
+          </ul>        </nav>
+      </div>
+    </header>
+
+
+     <!--botones de inincio bajo el banner
         
         <div>
-          
-          <div id= "buttons-home">
-            
-            <button id="homepage-btn">Inicio</button>
-            <button id="basicGuide-btn">Guía básica de usuario</button>
-            <button id="pokedex-btn">Pokedéx</button>
-            <button id="moves-btn">Ataques y movimientos</button>
-            <select id="distanceWalk-btn" name="Distancia por caramelo">
-              <option value="1">Distancia por caramelo</option>
-              <option value="2">1KM</option>
-              <option value="3">3KM</option>
-              <option value="4">5KM</option>
-              <option value="5">20KM</option>
+
               
           </div>
-          <!--Buscador! tengo que ponerlo bajo los botones, o en otro lugar que no sea al lado-->
-          <div id="search-box">
+          Buscador tengo que ponerlo bajo los botones, o en otro lugar que no sea al lado
+          <div id='search-box'>
             <input type="search" name="search" placeholder="Buscar en Pokemaniaco" title="Nueva búsqueda [alt-shift-f]" accesskey="f" id="searchInput" autocomplete="off">
             <input type="submit" name="go" value="Ir" title="Ir a la página con este nombre exacto si existe" id="searchGo-btn" class="searchButton">
             <input type="submit" name="fulltext" value="Buscar" title="Buscar este texto en las páginas" id="search-btn" class="searchButton">
           </div>
 
         </div>
-          
-        <br>
-        
-        
-        <div>
-        
-          <br>
-        </div>
-      </header>
+      </header>-->
 
 
-      <!---------------------primera pagina---------------------->
-    <main id="main-homepage">
-      <section id= "home">
-        <form> 
-            <div id="welcome-box">
-              <p>Bienvenidos a Pokemaníaco.</p>
-              <br>
-
-              <p>En esta página podrás convertirte en un experto maestro Pokémon. También verás todo el contenido de la Pokedéx de la región de Kanto. Recordaremos como fueron nuestros primeros amigos en esta aventura. <br>
-
-              Si eres un entrenador novato y quieres aprender a jugar este fantástico juego, revusa nuestra "Guía básica de PokémonGo" que se encuentra en el menú. </p>
-              <br>
-              <p>Vivamos juntos esta aventura con nuestros Pokemones y disfruta el mundo Pokémon como un verdadero maestro.
-              </p> <br>
-              <p>¡Atrapalos ya!</p>
-
-            </div>
-          </form>      
-      </section>
-    </main>
-     <br>
-
-   
-
-
-     <!----------------------Segunda pagina (guia de usuaro)--------------------->
- 
-  <section id= "userGuide" class="hidden">
-    <form> 
-    <div id= "user-box" name= "Guia usuario">
-      <p>Primeros pasos </p>
-      <br>
-      <p>Para jugar a Pokémon GO, necesitas una cuenta de Google</p>
-      <br>
-      <p>Nada más entrar en la aplicación por primera vez, tendremos que añadir una cuenta a la que se nos vinculará la partida, la cual podrá ser o bien la cuenta de Google o bien la del Club de Entrenadores Pokémon.
+      <!--pagina 1-->  
+  <main id="containerHome" class="main">
+    <div class="containerbox">
+        <div id="welcome-box">
+            
+            <h1><strong>Bienvenidos a Pokemaníaco.</strong></h1>
+            <br>
       
-      Puedes elegir cualquiera, aunque te recomendamos usar la que ya tienes de Google en tu propio teléfono móvil para tener acceso directo a cualquier información que te pueda llegar. 
+            <p>En esta página podrás convertirte en un experto maestro Pokémon. También verás todo el contenido de la Pokedéx de la región de Kanto. Recordaremos como fueron nuestros primeros amigos en esta aventura. <br>
       
-      Tras esto, conocerás al Profesor Willow, quien te explicará los fundamentos básicos de la aplicación, tras lo cual deberas diseñar a tu propio entrenador.
-      
-      Personaliza a tu entrenador Pokémon
-      Podrás elegir, como ya es habitual en la saga, entre chico y chica, tras lo cual podrás diseñarlo a tu gusto, dándole color de pelo, ojos, ropa, mochila, entre otros parámetros a elegir entre varias opciones.
-      
-      De por sí no hay nada que podamos decir aquí, simplemente diséñalo a tu gusto.
-      
-      Una vez hecho esto y tras otra conversación, tocará a elegir a nuestro Pokémon inicial.
-      
-      Como ya ocurrió con los títulos originales, podrás elegir entre Bulbasaur, de tipo Planta/Veneno, Charmander de tipo Fuego y Squirtle, del tipo Agua, formando un triángulo de eficacia en el que cada uno es débil o fuerte frente a los otros dos. </p>
-    </div>
-    </form>
-  </section>
-</main>
-<br>
-
-      <!----------------------tercera pagina (pokedex)------------------>
-
-  <section id= "pokedex" class= "hidden">
-    <from>
-      <div id= "pokemonList" name= "Lista de Pokémon">
-        <p>Seleccion a un Pokémon</p>
-
-        <div class="wrapper">
-          <div class="profile">
-              <table id= "userdata" border="2">
-                <thead>
-                  <th>num</th>
-                  <th>name</th>
-                  <th>img</th>            
-                  <th>type</th>
-          
-                </thead>
-                <tbody>
-          
-                </tbody>
-             </table>
+            Si eres un entrenador novato y quieres aprender a jugar este fantástico juego, revusa nuestra "Guía básica de PokémonGo" que se encuentra en el menú. </p>
+            <br><br>
+            <p>Vivamos juntos esta aventura con nuestros Pokemones y disfruta el mundo Pokémon como un verdadero maestro.
+            </p> <br>
+            <p>¡Atrapalos ya!</p>
           
           </div>
-       
-        
-      </div>
-    </from>
-  </section>
+        </form>    
+    </div>
+  </main>
+
+
+  <main id= "containerGuide" class="containerguide">
+    <form>
+    <div id= "user-box" name= "Guia usuario">
+      <h2><strong>Primeros pasos</strong></h2>
+      <p>Para jugar a Pokémon GO, necesitas una cuenta de Google</p>
+      <p>Nada más entrar en la aplicación por primera vez, tendremos que añadir una cuenta a la que se nos vinculará la partida, la cual podrá ser o bien la cuenta de Google o bien la del Club de Entrenadores Pokémon.
+      <p> Puedes elegir cualquiera, aunque te recomendamos usar la que ya tienes de Google en tu propio teléfono móvil para tener acceso directo a cualquier información que te pueda llegar.</p> 
+      <p>Tras esto, conocerás al Profesor Willow, quien te explicará los <strong>fundamentos básicos</strong> de la aplicación, tras lo cual deberas diseñar a tu propio entrenador.</p>
+      <br>
+      <p>Personaliza a tu entrenador Pokémon</p>
+      <p>Podrás elegir, como ya es habitual en la saga, entre chico y chica, tras lo cual podrás diseñarlo a tu gusto, dándole color de pelo, ojos, ropa, mochila, entre otros parámetros a elegir entre varias opciones.</p>
+      <br>
+      <p>De por sí no hay nada que podamos decir aquí, simplemente diséñalo a tu gusto.</p>
+      
+      <p>Una vez hecho esto y tras otra conversación, tocará a elegir a nuestro Pokémon inicial.
+      
+      Como ya ocurrió con los títulos originales, podrás elegir entre Bulbasaur, de tipo Planta/Veneno, Charmander de tipo Fuego y Squirtle, del tipo Agua, formando un triángulo de eficacia en el que cada uno es débil o fuerte frente a los otros dos. </p>
+    
+    </div>
+    </form>
+  </main>
+
+
+
+  <!--pagina 3-->
+
+<main id= "containerPokedex" class= "containerpokemon">
+  <form>
+    
+    <div id= "pokemonList" name= "Lista de Pokémon" class="pokeList">
+      <h1>Selecciona un Pokémon</h1><br>
+
+      <label for="pokeSearch">Filtrar por tipo</label>
+      <select id="selectTypes"  class="selectbytype">
+        <option value="ShowAll">Todos</option>
+        <option value="Normal">Normal</option>
+        <option value="Water">Agua</option>
+        <option value="Ground">Tierra</option>
+        <option value="Fire">Fuego</option>
+        <option value="Flying">Volador</option>
+        <option value="Bug">Bicho</option>
+        <option value="Ghost">Fantasma</option>
+        <option value="Dark">Siniestro</option>
+        <option value="Dragon">Dragon</option>
+        <option value="Steel">Acero</option>
+        <option value="Grass">Planta</option>
+        <option value="Rock">Rock</option>
+        <option value="Psychic">Psiquico</option>
+        <option value="Fairy">Hada</option>
+        <option value="Electric">Electrico</option>
+        <option value="Fighting">Lucha</option>
+        <option value="Poison">Veneno</option>
+        <option value="Ice">Hielo</option>
+    </div>
+
+    </form>
+    
+    <div class="root"></div>
+
 </main>
 
+     <footer>Página diseñada por Bárbara Madariaga V.</footer>
+ 
+  
+    <script src="./main.js" type="module"></script>
+    <script src= "data.js" type="module"></script>
 
-
-
-
-
-        <script src="data.js" type="module"></script>
-        <script src="main.js" type="module"></script>
-        <script src="pokemon.json" type="module"></script>
   </body>
-
-  <footer>
-    <a href="index.html"><img src="https://thumbs.gfycat.com/HarmoniousRemoteInsect-size_restricted.gif" alt="footer-kawaii"></a>
-  </footer>
 </html>
-
-<!--------------------------Cuarta pagina (huevos)-->

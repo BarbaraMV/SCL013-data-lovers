@@ -1,23 +1,18 @@
 *{
     margin-top: 0;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 0;
+    margin-right: 0;
     padding: 0;
     box-sizing: border-box;
     
   }
+
   
   html {
     text-align: center;
-    font-size: 62.5%; /*16px = 100%, 10px = 62.5% - 1rem = 10px*/
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 80.5%; /*16px = 100%, 10px = 62.5% - 1rem = 10px*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
-  }
-  
-  header {
-    text-align: center;
-    margin: 0 auto;
-  
   }
   
   body {
@@ -25,19 +20,20 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;  
-    margin-left: 8% ;
-    margin-right: 8%;
-    display: flex
+    margin top: 20rem;
+    padding: 15rem;
+    background-position: 0 15rem;
+    display: flexbox;
   }
   
   
-  
   #welcome-box {
-    background-image: url(https://external-preview.redd.it/z7_wYb9-YSvt0pDJlDIu8iuK_aWdqZPg0wvrGdwNvBw.png?auto=webp&s=b40bf3d0bccf7fe4f8dc601182710ca34eac2222);
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6bcb9f6e-4d73-40fa-b677-0b3e63e3521e/d5nhuuq-79a016a3-c066-4ac1-9d1a-6ff2b79f7569.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNmJjYjlmNmUtNGQ3My00MGZhLWI2NzctMGIzZTYzZTM1MjFlXC9kNW5odXVxLTc5YTAxNmEzLWMwNjYtNGFjMS05ZDFhLTZmZjJiNzlmNzU2OS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WiO4Ln-nl5Z-DVkDYoJGqLRsg_SJIfhfgGbXfen5UAo);
     background-size: contain;
+    font-size: x-large;
     align: center;
     box-shadow: blueviolet;
-    height: 40rem;
+    height: auto;
     resize: none;
     padding: 6rem;
     outline: none;
@@ -45,26 +41,26 @@
     border-radius: 3rem 3rem 3rem 3rem;
     moz-border-radius: 3rem 3rem 3rem 3rem;
     webkit-border-radius: 3rem 3rem 3rem 3rem;
-    width: 70%;  
+    width: auto;  
     justify-content: center;
-    
-    
+    align-items: center;
+    flex-flow: column; 
+    display: flexbox;
+    margin-top: 3rem;
   }
   
-  #homepage-btn, #basicGuide-btn, #pokedex-btn, #distanceWalk-btn, #moves-btn {
+ #selectTypes {
     background-color: lightblue;
     padding: 1rem;
     margin: 1rem;
-    outline: none; /*to disable square-shaped transparent outline*/
+    /*outline: none; to disable square-shaped transparent outline*/
     border: solid 2px blue;
     border-radius: 3rem 3rem 3rem 3rem;
     moz-border-radius: 3rem 3rem 3rem 3rem;
     webkit-border-radius: 3rem 3rem 3rem 3rem;
     width: 15rem;
-    cursor: pointer;
-    
+    display: flexbox;
   
-      
   }
   
   #search-btn, #searchGo-btn, #searchInput {
@@ -83,9 +79,10 @@
   #user-box {
     background-color: lightblue;
     background-size: contain;
+    font-size: x-large;
     align: center;
     box-shadow: blueviolet;
-    height: 40rem;
+    height: auto;
     resize: none;
     padding: 6rem;
     outline: none;
@@ -93,8 +90,127 @@
     border-radius: 3rem 3rem 3rem 3rem;
     moz-border-radius: 3rem 3rem 3rem 3rem;
     webkit-border-radius: 3rem 3rem 3rem 3rem;
-    width: 70%;  
+    width:  auto ;  
     justify-content: center;
+    align-items: center;
+    flex-flow: column; 
+    display: flexbox;
     opacity: 0.7;
     
   }
+
+  #pokemonList{
+    margin-top: 20rem;
+  
+  }
+
+
+  .container{
+    width: 90% ;
+    max-width: 850px;
+    margin:0 auto;
+  }
+
+  .header {
+    background-image: url(https://image.freepik.com/vector-gratis/fondo-blanco-hexagono-tecnologia-azul_1017-19366.jpg);
+    background-size: contain;
+    padding: 1rem 0;
+    text-decoration: none;
+    /*como dejar la cabecera fija */
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 30%;
+    z-index: 3;
+
+  }
+    .header a{
+      color: blue;
+      text-decoration: none;
+      padding: 0 2rem;
+      font-size: x-large;
+      text-align: center;
+    }
+
+  .logo-nav-container {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    
+  }
+
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+    .navigation ul li{
+      display: inline-block;
+      height: 4em;
+    }
+    
+      .navigation ul li a {
+        display: block;
+        padding: 1rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+      }
+        .navigation ul li a:hover {
+          background-color: rgba(36, 140, 209, 0.753);
+        }
+.containerbox {
+  padding-top: 10rem;
+}
+  
+#footer {
+  background-color: lightblue;
+  opacity: 0.7;
+  padding: 6rem;
+  text-align: center;
+  margin-left: 0;
+  margin-top: 2rem;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+
+.containerguide {
+  padding-top: 20rem;
+  margin-top: 10rem;
+}
+
+#pokemonList {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2% 4%;
+  box-sizing: border-box;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+}
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 15px;
+  width: 160px;
+  height: 195px;
+  text-align: center;
+  border-radius: 15px;
+  background: rgb(141, 183, 236);
+  box-shadow: blueviolet;
+  cursor: pointer;
+  flex-direction: row;
+  border: solid blue 3px;
+  
+}
+
+
+.selectbytype {
+  height: 20px;
+  display: flex;
+}
+
