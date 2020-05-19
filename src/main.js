@@ -1,4 +1,4 @@
-import pokemon from "./data.js";
+import pokemon from "./data/pokemon/pokemon.js";
 console.log(pokemon);
 import {filterByType} from "./data.js";
 //import {filterNumber} from "./data.js";
@@ -15,164 +15,115 @@ const pokemonesChart = document.getElementById("pokemonList");
 for(let i=0; i<arrData.length; i++){
   pokemonesChart.innerHTML+= `<div class="root">
     <h3>#${arrData[i].num}</h3>
-    <img src="${arrData[i].img}" alt="" class="imgPoke">
+    <br>
     <h4>${arrData[i].name}</h4>
-    <h4>Tipo: ${arrData[i].type}</h4>
+    <br>
+    <img src="${arrData[i].img}" alt="" class="imgPoke">
+    <br>
+    <h4 class=typePokemon>${arrData[i].type}</h4>
+    <br>
     <p>Debilidad: ${arrData[i].weaknesses}</p>
+    <br>
+    <p>Clima: ${arrData[i].weather}</p>
+    <br>
+    <p>Caramelos para evolucionar: ${arrData[i].candy_count}</p>
   </div>`;
 }
 
 
-//funcion que llama a los tipos de pokemon 
-/*usar evento para select 
-const tipos= document.getElementById("Types-btn");
-tipos.addEventListener ("click", () =>{
-    tipos ();
-});
+const type = pokeDatos;
+const selectType = document.querySelector("[name='selectbytypes']");
 
-const Bug = document.getElementById("Bug");
-Bug.addEventListener("click", () => {
-    let BugType = tipos(typeData, "Bug");
-    return showPokemonType(BugType);
-});
 
-const Dark = document.getElementById("Dark");
-Dark.addEventListener("click", () => {
-    let DarkType = filterByType(typeData, "Dark");
-    return showPokemonType(DarkType);
-});
+function pokemonFilter (type) {
+    selectType.addEventListener ("change", () => {
+    //alert("Butterfree");
+       // let pokeType = selectType.value;
+ 
+        //console.log(pokeType);
+        if (selectType.value === "ShowAll") {
+           // pokemonFilter(type);
+            printPokemon ();
+            //console.log("hola");
+        }else {
+  
+            console.log("tipo boton",selectType.value);
+            let typeResult = filterByType (type, selectType.value);
+            let arrData2 = Object.values(typeResult); // devuelve un array con los valores correspondientes de un objeto en el orden en el que estan
 
-const Dragon = document.getElementById("Dragon");
-Dragon.addEventListener("click", () => {
-    let DragonType = filterByType(typeData, "Dragon");
-    return showPokemonType(DragonType);
-});
+           // pokemonFilter(typeResult);
+           const pokemonesChart = document.getElementById("pokemonList");
+            pokemonesChart.innerHTML= "";
+            for(let i=0; i<arrData2.length; i++){
+                console.log(pokemonesChart);
+                pokemonesChart.innerHTML+= `<div class="root">
+                  <h3>#${arrData2[i].num} </h3>
+                  <h4>${arrData2[i].name} </h4>
+                  <img src="${arrData2[i].img}" alt="" class="imgPoke">
+                  <br>
+                  <h4>${arrData2[i].type} </h4>
+                  <p>Debilidad: ${arrData2[i].weaknesses} </p>
+                  <p>Alto: ${arrData2[i].height} </p>
+                  <p> Peso: ${arrData2[i].weight} </p>
+                  <p>Caramelos para evolucionar: ${arrData2[i].candy_count} </p>
+                </div>`;
+              }
+            console.log("aloha");
+            //console.log(arrData2);
+        
+        }
+    });
+}
+    pokemonFilter(type);
 
-const Electric = document.getElementById("Electric");
-Electric.addEventListener("click", () => {
-    let ElectricType = filterByType(typeData, "Electric");
-    return showPokemonType(ElectricType);
-});
+function printPokemon () {
+    console.log("imprimiendo");
+    for(let i=0; i<arrData.length; i++){
+      const pokeDatos = pokemon.pokemon;
+      let arrData = Object.values(pokeDatos);
+        //let typeResult = filterByType (pokeDatos, type);
+           // pokemonFilter(typeResult);
+        pokemonesChart.innerHTML+= `<div class="root">
+        
+          <h3>#${arrData[i].num} </h3>
+          <h4>${arrData[i].name} </h4>
+          <img src="${arrData[i].img}" alt="" class="imgPoke">
+          <br>
+          <h4>${arrData[i].type} </h4>
+          <p>Debilidad: ${arrData[i].weaknesses} </p>
+          <p>Alto: ${arrData[i].height} </p>
+          <p> Peso: ${arrData[i].weight} </p>
+          <p>Caramelos para evolucionar: ${arrData[i].candy_count} </p>
+        </div>`;
+      }
+      
 
-const Fairy = document.getElementById("Fairy");
-Fairy.addEventListener("click", () => {
-    let FairyType = filterByType(typeData, "Fairy");
-    return showPokemonType(FairyType);
-});
+}
 
-const Fighting = document.getElementById("Fighting");
-Fighting.addEventListener ("click", () => {
-    let FightingType = filterByType(typeData, "Fighting");
-    return showPokemonType(FightingType);
-});
 
-const Fire = document.getElementById("Fire");
-Fire.addEventListener ("click", () => {
-    let FireType = filterByType(typeData, "Fire");
-    return showPokemonType(FireType);
-});
 
-const Flying = document.getElementById("Flying");
-Flying.addEventListener ("click", () => {
-    let Flyingtype = filterBytype(FlyingData, "Flying");
-    return showPokemonType(FlyingType);
-});
 
-const Ghost = document.getElementById("Ghost");
-Ghost.addEventListener ("click", () => {
-    let GostType = filterByType(ghostData, "Ghost");
-    return showPokemonType(GhostType);
-});
+////////FUNCION TRADUCCION ///////////
 
-const Ground = document.getElementById("Ground");
-Ground.addEventListener = ("click", () => {
-    let GroundType = filterByType(GroundData, "Ground");
-    return showPokemonType(GroundType);
-});
 
-const Ice = document.getElementById("Ice");
-Ice.addEventListener = ("click", () => {
-    let IceType = filterByType(IceData, "Ice");
-    return showPokemonType(IceType);
-});
+/*const bug = document.getElementById("Bug-btn");
+const dark = document.getElementById("Dark-btn");
+const dragon = document.getElementById("Dragon-btn");
+const electric = document.getElementById("Electric-btn");
+const fairy = document.getElementById("Fairy-btn");
+const fighting = document.getElementById("Fighting-btn");
+const fire = document.getElementById("Fire-btn");
+const flying = document.getElementById("Flying-btn");
+const ghost = document.getElementById("Grass-btn");
+const ground = document.getElementById("Ground-btn");
+const Ice = document.getElementById("Ice-btn");
+const normal = document.getElementById("Normal-btn");
+const poison = document.getElementById("Poison-btn");
+const psychic = document.getElementById("Psyichic-btn");
+const rock = document.getElementById("Rock-btn");
+const steel = document.getElementById("Steel-btn");
+const water = document.getElementById("Water-btn");
 
-const Normal = document.getElementById("Normal");
-Normal.addEventListener = ("click", () => {
-    let NormalType = filterByType(NormalData, "Normal");
-    return showPokemonType(NormalType);
-});
 
-const Poison = document.getElementById("Poison");
-Poison.addEventListener = ("click", () => {
-    let PoisonType = filterByType(PoisonData, "Poison");
-    return showPokemonType(PoisonType);
-});
+*/
 
-const Psychic = document.getElementById("Psychic");
-Psychic.addEventListener = ("click", () => {
-    let psychicType = filterByType(PsychicData, "Psychic");
-    return showPokemonType(PsychicType);
-});
-
-const Rock = document.getElementById("Rock");
-Rock.addEventListener = ("click", () => {
-    let RockType = filterByType(RockData, "Rock");
-    return showPokemonType(RockType);
-});
-
-const Steel = document.getElementById("Steel");
-Steel.addEventListener = ("click", () => {
-    let SteelType = filterByType(SteelData, "Steel");
-    return showPokemonType(SteelType);
-});
-
-const Water = document.getElementById("Water");
-Water.addEventListener = ("click", () => {
-    let WaterType = filterByType(WaterData, "Water");
-    return showPokemontype(WaterType);
-});*/
-
-//funcion que traduce datos
-
-/*function traslation (word){
-    if(word == "Normal"){
-        return "Normal";
-    }else if(word == "Water"){
-        return "Agua";
-    }else if(word == "Ground"){
-        return "Tierra";
-    }else if(word == "Fire"){
-        return "Fuego";
-    }else if(word =="Flying"){
-        return "Volador";
-    }else if(word == "Bug"){
-        return "Bicho";
-    }else if(word == "Ghost"){
-        return "Fantasma";
-    }else if(word == "Dark"){
-        return "Siniestro";
-    }else if(word == "Steel"){
-        return "Acero";
-    }else if(word == "Dragon"){
-        return "Dragón";
-    }else if(word == "Grass"){
-        return "Planta";
-    }else if(word == "Rock"){
-        return "Roca";
-    }else if(word == "Psychic"){
-        return "Psíquico";
-    }else if(word == "Fairy"){
-        return "Hada";
-    }else if(word == "Electric"){
-        return "Eléctrico";
-    }else if(word == "Fighting"){
-        return "Lucha";
-    }else if(word == "Poison"){
-        return "Veneno";
-    }else if(word == "Ice"){
-        return "Hielo";
-    }else{
-        return "no registra";
-    }
-
-}*/

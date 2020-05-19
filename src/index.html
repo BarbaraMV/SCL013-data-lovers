@@ -7,7 +7,7 @@
     <title>Pokemaníaco</title>
     <link rel="stylesheet" href="style.css" />
   
-  <link rel= "shorcut icon" href="http://getdrawings.com/free-icon-bw/pokemon-icon-9.png">
+  <link rel= "shorcut icon" href="https://www.pokencyclopedia.info/sprites/spin-off/ico_shuffle/ico_shuffle_002.png">
   <link href="https://fonts.google.com/specimen/Baloo+Tamma+2" rel="stylesheet">
 </head>
   <body>
@@ -27,7 +27,6 @@
      <!--botones de inincio bajo el banner
         
         <div>
-
               
           </div>
           Buscador tengo que ponerlo bajo los botones, o en otro lugar que no sea al lado
@@ -36,7 +35,6 @@
             <input type="submit" name="go" value="Ir" title="Ir a la página con este nombre exacto si existe" id="searchGo-btn" class="searchButton">
             <input type="submit" name="fulltext" value="Buscar" title="Buscar este texto en las páginas" id="search-btn" class="searchButton">
           </div>
-
         </div>
       </header>-->
 
@@ -44,6 +42,7 @@
       <!--pagina 1-->  
   <main id="containerHome" class="main">
     <div class="containerbox">
+      <form>
         <div id="welcome-box">
             
             <h1><strong>Bienvenidos a Pokemaníaco.</strong></h1>
@@ -58,7 +57,7 @@
             <p>¡Atrapalos ya!</p>
           
           </div>
-        </form>    
+      </form>    
     </div>
   </main>
 
@@ -68,7 +67,7 @@
     <div id= "user-box" name= "Guia usuario">
       <h2><strong>Primeros pasos</strong></h2>
       <p>Para jugar a Pokémon GO, necesitas una cuenta de Google</p>
-      <p>Nada más entrar en la aplicación por primera vez, tendremos que añadir una cuenta a la que se nos vinculará la partida, la cual podrá ser o bien la cuenta de Google o bien la del Club de Entrenadores Pokémon.
+      <p>Nada más entrar en la aplicación por primera vez, tendremos que añadir una cuenta a la que se nos vinculará la partida, la cual podrá ser o bien la cuenta de Google o bien la del Club de Entrenadores Pokémon.</p>
       <p> Puedes elegir cualquiera, aunque te recomendamos usar la que ya tienes de Google en tu propio teléfono móvil para tener acceso directo a cualquier información que te pueda llegar.</p> 
       <p>Tras esto, conocerás al Profesor Willow, quien te explicará los <strong>fundamentos básicos</strong> de la aplicación, tras lo cual deberas diseñar a tu propio entrenador.</p>
       <br>
@@ -91,32 +90,47 @@
 
 <main id= "containerPokedex" class= "containerpokemon">
   <form>
-    
-    <div id= "pokemonList" name= "Lista de Pokémon" class="pokeList">
+
+    <div id= "pokemonTarget" name= "Lista de Pokémon" class="pokeList">
       <h1>Selecciona un Pokémon</h1><br>
 
-      <label for="pokeSearch">Filtrar por tipo</label>
-      <select id="selectTypes"  class="selectbytype">
-        <option value="ShowAll">Todos</option>
-        <option value="Normal">Normal</option>
-        <option value="Water">Agua</option>
-        <option value="Ground">Tierra</option>
-        <option value="Fire">Fuego</option>
-        <option value="Flying">Volador</option>
-        <option value="Bug">Bicho</option>
-        <option value="Ghost">Fantasma</option>
-        <option value="Dark">Siniestro</option>
-        <option value="Dragon">Dragon</option>
+          <label for="pokeSearch">Filtrar por tipo</label>
+
+
+
+      <select id="selectTypes"  name="selectbytypes">
+        <option value="ShowAll">Tipos</option>
         <option value="Steel">Acero</option>
-        <option value="Grass">Planta</option>
-        <option value="Rock">Rock</option>
-        <option value="Psychic">Psiquico</option>
-        <option value="Fairy">Hada</option>
+        <option value="Water">Agua</option>
+        <option value="Bug">Bicho</option>
+        <option value="Dragon">Dragon</option>
         <option value="Electric">Electrico</option>
-        <option value="Fighting">Lucha</option>
-        <option value="Poison">Veneno</option>
+        <option value="Ghost">Fantasma</option>
+        <option value="Fire">Fuego</option>
+        <option value="Fairy">Hada</option>
         <option value="Ice">Hielo</option>
+        <option value="Fighting">Lucha</option>
+        <option value="Normal">Normal</option>
+        <option value="Grass">Planta</option>
+        <option value="Psychic">Psiquico</option>
+        <option value="Rock">Roca</option>
+        <option value="Dark">Siniestro</option>
+        <option value="Ground">Tierra</option>
+        <option value="Poison">Veneno</option>
+        <option value="Flying">Volador</option>
+      </select>
+
+     <div id= "pokemonList">
+      
+      
+
+
+      </div><br>
     </div>
+
+ 
+
+
 
     </form>
     
@@ -124,11 +138,60 @@
 
 </main>
 
-     <footer>Página diseñada por Bárbara Madariaga V.</footer>
+     <footer class="footer">Página diseñada por Bárbara Madariaga V.</footer>
  
   
     <script src="./main.js" type="module"></script>
-    <script src= "data.js" type="module"></script>
 
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div id= "iconType">
+
+        <button id= "Bug-btn" value= "Bug" class="bugType"><img src="./data/icontype/Icon_Bug.png"></button>
+        <button id= "Dark-btn" value= "Dark" class="darkType"><img src="./data/icontype/Icon_Dark.png"></button>
+        <button id= "Dragon-btn" value= "Dragon" class="dragonType"><img src="./data/icontype/Icon_Dragon.png"></button>
+        <button id= "Electric-btn" value= "Electric" class="electricType"><img src="./data/icontype/Icon_Electric.png"></button>
+        <button id= "Fairy-btn" value="Fairy" class="fairyType"><img src="./data/icontype/Icon_Fairy.png"></button>
+        <button id= "Fighting-btn" value="Fighting" class="fightingType"><img src="./data/icontype/Icon_Fighting.png"></button>
+        <button id= "Fire-btn" value="Fire" class="fireType"><img src="./data/icontype/Icon_Fire.png"></button>
+        <button id= "Flying-btn" value="Flying" class="flyingtype"><img src="./data/icontype/Icon_Flying.png"></button>
+        <button id= "Ghost-btn" value="Ghost" class="ghostType"><img src="./data/icontype/Icon_Ghost.png"></button>
+        <button id= "Grass-btn" value="Grass" class="grassType"><img src="./data/icontype/Icon_Grass.png"></button>
+        <button id= "Ground-btn" value="Ground" class="groundType"><img src="./data/icontype/Icon_Ground.png"></button>
+        <button id= "Ice-btn" value="Ice" class="iceType"><img src="./data/icontype/Icon_Ice.png"></button>
+        <button id= "Normal-btn" value="Normal" class="normalType"><img src="./data/icontype/Icon_Normal.png"></button>
+        <button id= "Poison-btn" value="Poison" class="poisonType"><img src="./data/icontype/Icon_Poison.png"></button>
+        <button id= "Psychic-btn" value="Psychic" class="psychicType"><img src="./data/icontype/Icon_Psychic.png"></button>
+        <button id= "Rock-btn" value="Rock" class="rockType"><img src="./data/icontype/Icon_Rock.png"></button>
+        <button id= "Steel-btn" value="Steel" class="steelType"><img src="./data/icontype/Icon_Steel.png"></button>
+        <button id= "Water-btn" Value="Water" class="waterType"><img src="./data/icontype/Icon_Water.png"></button>
+        </div>-->

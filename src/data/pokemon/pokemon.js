@@ -5,7 +5,7 @@ export default {
     "name": "Bulbasaur",
     "img": "http://www.serebii.net/pokemongo/pokemon/001.png",
     "type": [
-      "Grass",
+      "Grass", 
       "Poison"
     ],
     "height": "0.71 m",
@@ -17,6 +17,10 @@ export default {
     "avg_spawns": 69,
     "spawn_time": "20:00",
     "multipliers": [1.58],
+    "weather": [
+      "Sunny ",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Fire",
       "Ice",
@@ -51,6 +55,10 @@ export default {
       1.2,
       1.6
     ],
+    "weather": [
+      "Sunny ",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Fire",
       "Ice",
@@ -82,6 +90,10 @@ export default {
     "avg_spawns": 1.7,
     "spawn_time": "11:30",
     "multipliers": null,
+    "weather": [
+      "Sunny ",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Fire",
       "Ice",
@@ -112,6 +124,7 @@ export default {
     "avg_spawns": 25.3,
     "spawn_time": "08:45",
     "multipliers": [1.65],
+    "weather": ["Sunny "],
     "weaknesses": [
       "Water",
       "Ground",
@@ -141,6 +154,7 @@ export default {
     "avg_spawns": 1.2,
     "spawn_time": "19:00",
     "multipliers": [1.79],
+    "weather": ["Sunny "],
     "weaknesses": [
       "Water",
       "Ground",
@@ -171,6 +185,10 @@ export default {
     "avg_spawns": 0.31,
     "spawn_time": "13:34",
     "multipliers": null,
+    "weather": [
+      "Sunny ",
+      "Windy"
+    ],
     "weaknesses": [
       "Water",
       "Electric",
@@ -200,6 +218,7 @@ export default {
     "avg_spawns": 58,
     "spawn_time": "04:25",
     "multipliers": [2.1],
+    "weather": ["Rainy"],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -228,6 +247,7 @@ export default {
     "avg_spawns": 3.4,
     "spawn_time": "07:02",
     "multipliers": [1.4],
+    "weather": ["Rainy"],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -256,6 +276,7 @@ export default {
     "avg_spawns": 0.67,
     "spawn_time": "00:06",
     "multipliers": null,
+    "weather": ["Rainy"],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -284,6 +305,7 @@ export default {
     "avg_spawns": 303.2,
     "spawn_time": "16:35",
     "multipliers": [1.05],
+    "weather": ["Rainy"],
     "weaknesses": [
       "Fire",
       "Flying",
@@ -316,6 +338,7 @@ export default {
       3.55,
       3.79
     ],
+    "weather": ["Rainy"],
     "weaknesses": [
       "Fire",
       "Flying",
@@ -346,6 +369,10 @@ export default {
     "avg_spawns": 2.2,
     "spawn_time": "05:23",
     "multipliers": null,
+    "weather": [
+      "Rainy",
+      "Windy"
+    ],
     "weaknesses": [
       "Fire",
       "Electric",
@@ -381,6 +408,9 @@ export default {
       1.01,
       1.09
     ],
+    "weather": [
+      "Rainy",
+      "Cloudy"],
     "weaknesses": [
       "Fire",
       "Flying",
@@ -415,6 +445,10 @@ export default {
       3.01,
       3.41
     ],
+    "weather": [
+      "Rainy",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Fire",
       "Flying",
@@ -446,6 +480,10 @@ export default {
     "avg_spawns": 5.1,
     "spawn_time": "04:50",
     "multipliers": null,
+    "weather": [
+      "Rainy",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Fire",
       "Flying",
@@ -480,7 +518,12 @@ export default {
       1.71,
       1.92
     ],
+    "weather": [
+      "Party cloudy",
+      "Windy"
+    ],
     "weaknesses": [
+      "Ice",
       "Electric",
       "Rock"
     ],
@@ -509,7 +552,12 @@ export default {
     "avg_spawns": 102,
     "spawn_time": "01:30",
     "multipliers": [1.79],
+    "weather": [
+      "Party cloudy",
+      "Windy"
+    ],
     "weaknesses": [
+      "Ice",
       "Electric",
       "Rock"
     ],
@@ -538,7 +586,12 @@ export default {
     "avg_spawns": 13,
     "spawn_time": "01:50",
     "multipliers": null,
+    "weather": [
+      "Party cloudy",
+      "Windy"
+    ],
     "weaknesses": [
+      "Ice",
       "Electric",
       "Rock"
     ],
@@ -569,6 +622,7 @@ export default {
       2.55,
       2.73
     ],
+    "weather": ["Party cloudy"],
     "weaknesses": [
       "Fighting"
     ],
@@ -592,6 +646,7 @@ export default {
     "avg_spawns": 41,
     "spawn_time": "01:56",
     "multipliers": null,
+    "weather": ["Party cloudy"],
     "weaknesses": [
       "Fighting"
     ],
@@ -620,7 +675,12 @@ export default {
       2.66,
       2.68
     ],
+    "weather": [
+      "Party cloudy",
+      "Windy"
+    ],
     "weaknesses": [
+      "Ice",
       "Electric",
       "Rock"
     ],
@@ -645,7 +705,12 @@ export default {
     "avg_spawns": 15,
     "spawn_time": "01:11",
     "multipliers": null,
+    "weather": [
+      "Party cloudy",
+      "Windy"
+    ],
     "weaknesses": [
+      "Ice",
       "Electric",
       "Rock"
     ],
@@ -673,6 +738,7 @@ export default {
       2.21,
       2.27
     ],
+    "weather": ["Cloudy"],
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -697,6 +763,7 @@ export default {
     "avg_spawns": 7.2,
     "spawn_time": "01:50",
     "multipliers": null,
+    "weather": ["Cloudy"],
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -722,6 +789,7 @@ export default {
     "avg_spawns": 21,
     "spawn_time": "04:00",
     "multipliers": [2.34],
+    "weather": ["Rainy"],
     "weaknesses": [
       "Ground"
     ],
@@ -745,6 +813,7 @@ export default {
     "avg_spawns": 0.76,
     "spawn_time": "23:58",
     "multipliers": null,
+    "weather": ["Rainy"],
     "weaknesses": [
       "Ground"
     ],
@@ -769,6 +838,7 @@ export default {
     "avg_spawns": 111,
     "spawn_time": "01:58",
     "multipliers": [2.45],
+    "weather": ["Sunny"],
     "weaknesses": [
       "Water",
       "Grass",
@@ -794,6 +864,7 @@ export default {
     "avg_spawns": 3.7,
     "spawn_time": "12:34",
     "multipliers": null,
+    "weather": ["Sunny"],
     "weaknesses": [
       "Water",
       "Grass",
@@ -823,6 +894,7 @@ export default {
       1.63,
       2.48
     ],
+    "weather": ["Cloudy"],
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -854,6 +926,7 @@ export default {
       1.83,
       2.48
     ],
+    "weather": ["Cloudy"],
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -883,6 +956,11 @@ export default {
     "avg_spawns": 1.2,
     "spawn_time": "12:35",
     "multipliers": null,
+    "weather": [
+      "Cloudy",
+      "Sunny"
+    ],
+
     "weaknesses": [
       "Water",
       "Ice",
@@ -916,6 +994,7 @@ export default {
       1.64,
       1.7
     ],
+    "weather": ["Cloudy"],
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -944,6 +1023,7 @@ export default {
     "avg_spawns": 8.3,
     "spawn_time": "09:02",
     "multipliers": [1.83],
+    "weather": ["Cloudy"],
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -973,6 +1053,10 @@ export default {
     "avg_spawns": 1.7,
     "spawn_time": "12:16",
     "multipliers": null,
+    "weather": [
+      "Cloudy",
+      "Sunny"
+    ],
     "weaknesses": [
       "Water",
       "Ice",
@@ -992,7 +1076,7 @@ export default {
     "name": "Clefairy",
     "img": "http://www.serebii.net/pokemongo/pokemon/035.png",
     "type": [
-      "Normal"
+      "Fairy"
     ],
     "height": "0.61 m",
     "weight": "7.5 kg",
@@ -1006,8 +1090,10 @@ export default {
       2.03,
       2.14
     ],
+    "weather": ["Cloudy"],
     "weaknesses": [
-      "Fighting"
+      "Poison",
+      "Steel"
     ],
     "next_evolution": [{
       "num": "036",
@@ -1019,7 +1105,7 @@ export default {
     "name": "Clefable",
     "img": "http://www.serebii.net/pokemongo/pokemon/036.png",
     "type": [
-      "Normal"
+      "Fairy"
     ],
     "height": "1.30 m",
     "weight": "40.0 kg",
@@ -1029,8 +1115,10 @@ export default {
     "avg_spawns": 1.2,
     "spawn_time": "03:29",
     "multipliers": null,
+    "weather": ["Cloudy"],
     "weaknesses": [
-      "Fighting"
+      "Poison",
+      "Steel"
     ],
     "prev_evolution": [{
       "num": "035",
@@ -1056,6 +1144,7 @@ export default {
       2.74,
       2.81
     ],
+    "weather": ["Sunny"],
     "weaknesses": [
       "Water",
       "Ground",
@@ -1081,6 +1170,7 @@ export default {
     "avg_spawns": 0.77,
     "spawn_time": "01:32",
     "multipliers": null,
+    "weather": ["Sunny"],
     "weaknesses": [
       "Water",
       "Ground",
@@ -1096,7 +1186,8 @@ export default {
     "name": "Jigglypuff",
     "img": "http://www.serebii.net/pokemongo/pokemon/039.png",
     "type": [
-      "Normal"
+      "Normal",
+      "Fairy"
     ],
     "height": "0.51 m",
     "weight": "5.5 kg",
@@ -1108,7 +1199,8 @@ export default {
     "spawn_time": "08:46",
     "multipliers": [1.85],
     "weaknesses": [
-      "Fighting"
+      "Poison",
+      "Steel"
     ],
     "next_evolution": [{
       "num": "040",
@@ -1120,7 +1212,8 @@ export default {
     "name": "Wigglytuff",
     "img": "http://www.serebii.net/pokemongo/pokemon/040.png",
     "type": [
-      "Normal"
+      "Normal",
+      "Fairy"
     ],
     "height": "0.99 m",
     "weight": "12.0 kg",
@@ -1131,7 +1224,8 @@ export default {
     "spawn_time": "12:28",
     "multipliers": null,
     "weaknesses": [
-      "Fighting"
+      "Poison",
+      "Steel"
     ],
     "prev_evolution": [{
       "num": "039",
@@ -1157,6 +1251,10 @@ export default {
     "multipliers": [
       2.6,
       3.67
+    ],
+    "weather": [
+      "Cloudy",
+      "Windy"
     ],
     "weaknesses": [
       "Electric",
@@ -1185,6 +1283,9 @@ export default {
     "avg_spawns": 42,
     "spawn_time": "02:15",
     "multipliers": null,
+    "weather": [
+      "Cloudy",
+      "Windy"],
     "weaknesses": [
       "Electric",
       "Ice",
@@ -1213,6 +1314,10 @@ export default {
     "avg_spawns": 102,
     "spawn_time": "03:58",
     "multipliers": [1.5],
+    "weather": [
+      "Sunny",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Fire",
       "Ice",
@@ -1244,6 +1349,10 @@ export default {
     "avg_spawns": 6.4,
     "spawn_time": "11:33",
     "multipliers": [1.49],
+    "weather": [
+      "Sunny",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Fire",
       "Ice",
@@ -1275,6 +1384,10 @@ export default {
     "avg_spawns": 0.97,
     "spawn_time": "23:58",
     "multipliers": null,
+    "weather": [
+      "Sunny",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Fire",
       "Ice",
@@ -1306,6 +1419,10 @@ export default {
     "avg_spawns": 236,
     "spawn_time": "01:42",
     "multipliers": [2.02],
+    "weather": [
+      "Sunny",
+      "Rainy"
+    ],
     "weaknesses": [
       "Fire",
       "Ice",
@@ -1335,6 +1452,10 @@ export default {
     "avg_spawns": 7.4,
     "spawn_time": "01:22",
     "multipliers": null,
+    "weather": [
+      "Sunny",
+      "Rainy"
+    ],
     "weaknesses": [
       "Fire",
       "Ice",
@@ -1368,6 +1489,10 @@ export default {
       1.86,
       1.9
     ],
+    "weather": [
+      "Cloudy",
+      "Rainy"
+    ],
     "weaknesses": [
       "Fire",
       "Flying",
@@ -1395,6 +1520,10 @@ export default {
     "avg_spawns": 7.2,
     "spawn_time": "23:40",
     "multipliers": null,
+    "weather": [
+      "Cloudy",
+      "Rainy"
+    ],
     "weaknesses": [
       "Fire",
       "Flying",
@@ -1422,6 +1551,9 @@ export default {
     "avg_spawns": 40,
     "spawn_time": "02:22",
     "multipliers": [2.69],
+    "weather": [
+      "Sunny"
+    ],
     "weaknesses": [
       "Water",
       "Grass",
@@ -1447,6 +1579,9 @@ export default {
     "avg_spawns": 1.4,
     "spawn_time": "12:37",
     "multipliers": null,
+    "weather": [
+      "Sunny"
+    ],
     "weaknesses": [
       "Water",
       "Grass",
@@ -1473,6 +1608,9 @@ export default {
     "avg_spawns": 86,
     "spawn_time": "02:54",
     "multipliers": [1.98],
+    "weather": [
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Fighting"
     ],
@@ -1496,6 +1634,9 @@ export default {
     "avg_spawns": 2.2,
     "spawn_time": "02:44",
     "multipliers": null,
+    "weather": [
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Fighting"
     ],
@@ -1520,6 +1661,9 @@ export default {
     "avg_spawns": 254,
     "spawn_time": "03:41",
     "multipliers": [2.27],
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -1544,6 +1688,9 @@ export default {
     "avg_spawns": 8.7,
     "spawn_time": "23:06",
     "multipliers": null,
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -1572,6 +1719,9 @@ export default {
       2.17,
       2.28
     ],
+    "weather": [
+      "Cloudy"
+    ],
     "weaknesses": [
       "Flying",
       "Psychic",
@@ -1597,6 +1747,9 @@ export default {
     "avg_spawns": 3.1,
     "spawn_time": "12:33",
     "multipliers": null,
+    "weather": [
+      "Cloudy"
+    ],
     "weaknesses": [
       "Flying",
       "Psychic",
@@ -1626,6 +1779,9 @@ export default {
       2.31,
       2.36
     ],
+    "weather": [
+      "Sunny"
+    ],
     "weaknesses": [
       "Water",
       "Ground",
@@ -1651,6 +1807,9 @@ export default {
     "avg_spawns": 1.7,
     "spawn_time": "03:11",
     "multipliers": null,
+    "weather": [
+      "Sunny"
+    ],
     "weaknesses": [
       "Water",
       "Ground",
@@ -1680,6 +1839,9 @@ export default {
       1.72,
       1.73
     ],
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -1708,6 +1870,9 @@ export default {
     "avg_spawns": 13,
     "spawn_time": "09:14",
     "multipliers": [1.95],
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -1737,6 +1902,10 @@ export default {
     "avg_spawns": 1.1,
     "spawn_time": "01:32",
     "multipliers": null,
+    "weather": [
+      "Rainy",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass",
@@ -1771,6 +1940,9 @@ export default {
       1.36,
       1.95
     ],
+    "weather": [
+      "Windy"
+    ],
     "weaknesses": [
       "Bug",
       "Ghost",
@@ -1800,6 +1972,9 @@ export default {
     "avg_spawns": 2.7,
     "spawn_time": "11:25",
     "multipliers": [1.4],
+    "weather": [
+      "Windy"
+    ],
     "weaknesses": [
       "Bug",
       "Ghost",
@@ -1829,6 +2004,9 @@ export default {
     "avg_spawns": 0.73,
     "spawn_time": "12:33",
     "multipliers": null,
+    "weather": [
+      "Windy"
+    ],
     "weaknesses": [
       "Bug",
       "Ghost",
@@ -1861,6 +2039,9 @@ export default {
       1.64,
       1.65
     ],
+    "weather": [
+      "Cloudy"
+    ],
     "weaknesses": [
       "Flying",
       "Psychic",
@@ -1890,6 +2071,9 @@ export default {
     "avg_spawns": 3.4,
     "spawn_time": "10:32",
     "multipliers": [1.7],
+    "weather": [
+      "Cloudy"
+    ],
     "weaknesses": [
       "Flying",
       "Psychic",
@@ -1919,6 +2103,9 @@ export default {
     "avg_spawns": 0.68,
     "spawn_time": "02:55",
     "multipliers": null,
+    "weather": [
+      "Cloudy"
+    ],
     "weaknesses": [
       "Flying",
       "Psychic",
@@ -1949,6 +2136,10 @@ export default {
     "avg_spawns": 115,
     "spawn_time": "04:10",
     "multipliers": [1.57],
+    "weather": [
+      "Sunny",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Fire",
       "Ice",
@@ -1980,6 +2171,10 @@ export default {
     "avg_spawns": 7.2,
     "spawn_time": "09:45",
     "multipliers": [1.59],
+    "weather": [
+      "Sunny",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Fire",
       "Ice",
@@ -2011,6 +2206,10 @@ export default {
     "avg_spawns": 0.59,
     "spawn_time": "12:19",
     "multipliers": null,
+    "weather": [
+      "Sunny",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Fire",
       "Ice",
@@ -2042,6 +2241,10 @@ export default {
     "avg_spawns": 81,
     "spawn_time": "03:20",
     "multipliers": [2.52],
+    "weather": [
+      "Rainy",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Electric",
       "Ground",
@@ -2068,6 +2271,10 @@ export default {
     "avg_spawns": 8.2,
     "spawn_time": "23:36",
     "multipliers": null,
+    "weather": [
+      "Rainy",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Electric",
       "Ground",
@@ -2097,6 +2304,10 @@ export default {
     "multipliers": [
       1.75,
       1.76
+    ],
+    "weather": [
+      "Sunny",
+      "Party cloud"
     ],
     "weaknesses": [
       "Water",
@@ -2134,6 +2345,10 @@ export default {
       1.64,
       1.72
     ],
+    "weather": [
+      "Sunny",
+      "Party cloud"
+    ],
     "weaknesses": [
       "Water",
       "Grass",
@@ -2167,6 +2382,10 @@ export default {
     "avg_spawns": 0.47,
     "spawn_time": "12:16",
     "multipliers": null,
+    "weather": [
+      "Sunny",
+      "Party cloud"
+    ],
     "weaknesses": [
       "Water",
       "Grass",
@@ -2202,6 +2421,9 @@ export default {
       1.48,
       1.5
     ],
+    "weather": [
+      "Sunny"
+    ],
     "weaknesses": [
       "Water",
       "Ground",
@@ -2227,6 +2449,9 @@ export default {
     "avg_spawns": 1.1,
     "spawn_time": "04:00",
     "multipliers": null,
+    "weather": [
+      "Sunny"
+    ],
     "weaknesses": [
       "Water",
       "Ground",
@@ -2254,6 +2479,10 @@ export default {
     "avg_spawns": 105,
     "spawn_time": "07:12",
     "multipliers": [2.21],
+    "weather": [
+      "Rainy",
+      "Windy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass",
@@ -2282,6 +2511,10 @@ export default {
     "avg_spawns": 3.6,
     "spawn_time": "02:56",
     "multipliers": null,
+    "weather": [
+      "Rainy",
+      "Windy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass",
@@ -2299,7 +2532,8 @@ export default {
     "name": "Magnemite",
     "img": "http://www.serebii.net/pokemongo/pokemon/081.png",
     "type": [
-      "Electric"
+      "Electric",
+      "Steel"
     ],
     "height": "0.30 m",
     "weight": "6.0 kg",
@@ -2313,9 +2547,13 @@ export default {
       2.16,
       2.17
     ],
+    "weather": [
+      "Rainy",
+      "Snow"
+    ],
     "weaknesses": [
       "Fire",
-      "Water",
+      "Figthing",
       "Ground"
     ],
     "next_evolution": [{
@@ -2328,7 +2566,8 @@ export default {
     "name": "Magneton",
     "img": "http://www.serebii.net/pokemongo/pokemon/082.png",
     "type": [
-      "Electric"
+      "Electric",
+      "Steel"
     ],
     "height": "0.99 m",
     "weight": "60.0 kg",
@@ -2338,9 +2577,13 @@ export default {
     "avg_spawns": 2.3,
     "spawn_time": "15:25",
     "multipliers": null,
+    "weather": [
+      "Rainy",
+      "Snow"
+    ],
     "weaknesses": [
       "Fire",
-      "Water",
+      "Fighting",
       "Ground"
     ],
     "prev_evolution": [{
@@ -2364,7 +2607,12 @@ export default {
     "avg_spawns": 2.12,
     "spawn_time": "01:09",
     "multipliers": null,
+    "weather": [
+      "Party cloudy",
+      "Windy"
+    ],
     "weaknesses": [
+      "Ice",
       "Electric",
       "Rock"
     ]
@@ -2389,7 +2637,12 @@ export default {
       2.19,
       2.24
     ],
+    "weather": [
+      "Party cloudy",
+      "Windy"
+    ],
     "weaknesses": [
+      "Ice",
       "Electric",
       "Rock"
     ],
@@ -2414,7 +2667,12 @@ export default {
     "avg_spawns": 22,
     "spawn_time": "02:12",
     "multipliers": null,
+    "weather": [
+      "Party cloudy",
+      "Windy"
+    ],
     "weaknesses": [
+      "Ice",
       "Electric",
       "Rock"
     ],
@@ -2442,6 +2700,9 @@ export default {
       1.04,
       1.96
     ],
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -2467,6 +2728,9 @@ export default {
     "avg_spawns": 1.3,
     "spawn_time": "06:04",
     "multipliers": null,
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass",
@@ -2494,6 +2758,9 @@ export default {
     "avg_spawns": 5.2,
     "spawn_time": "15:11",
     "multipliers": [2.44],
+    "weather": [
+      "Cloudy"
+    ],
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -2518,6 +2785,9 @@ export default {
     "avg_spawns": 0.31,
     "spawn_time": "01:28",
     "multipliers": null,
+    "weather": [
+      "Cloudy"
+    ],
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -2543,6 +2813,9 @@ export default {
     "avg_spawns": 52,
     "spawn_time": "07:39",
     "multipliers": [2.65],
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -2568,6 +2841,10 @@ export default {
     "avg_spawns": 1.5,
     "spawn_time": "02:33",
     "multipliers": null,
+    "weather": [
+      "Rainy",
+      "Snow"
+    ],
     "weaknesses": [
       "Electric",
       "Grass",
@@ -2596,6 +2873,10 @@ export default {
     "avg_spawns": 79,
     "spawn_time": "04:21",
     "multipliers": [1.78],
+    "weather": [
+      "Cloudy",
+      "Fog"
+    ],
     "weaknesses": [
       "Ground",
       "Psychic",
@@ -2630,6 +2911,10 @@ export default {
       1.56,
       1.8
     ],
+    "weather": [
+      "Cloudy",
+      "Fog"
+    ],
     "weaknesses": [
       "Ground",
       "Psychic",
@@ -2661,6 +2946,10 @@ export default {
     "avg_spawns": 0.67,
     "spawn_time": "03:55",
     "multipliers": null,
+    "weather": [
+      "Cloudy",
+      "Fog"
+    ],
     "weaknesses": [
       "Ground",
       "Psychic",
@@ -2691,6 +2980,10 @@ export default {
     "avg_spawns": 10,
     "spawn_time": "01:18",
     "multipliers": null,
+    "weather": [
+      "Sunny",
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Water",
       "Grass",
@@ -2719,6 +3012,9 @@ export default {
       2.08,
       2.09
     ],
+    "weather": [
+      "Windy"
+    ],
     "weaknesses": [
       "Bug",
       "Ghost",
@@ -2744,6 +3040,9 @@ export default {
     "avg_spawns": 10,
     "spawn_time": "02:17",
     "multipliers": null,
+    "weather": [
+      "Windy",
+    ],
     "weaknesses": [
       "Bug",
       "Ghost",
@@ -2773,6 +3072,9 @@ export default {
       2.36,
       2.4
     ],
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -2797,6 +3099,9 @@ export default {
     "avg_spawns": 6.2,
     "spawn_time": "03:44",
     "multipliers": null,
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -2825,6 +3130,9 @@ export default {
       2.01,
       2.02
     ],
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Ground"
     ],
@@ -2848,6 +3156,9 @@ export default {
     "avg_spawns": 2,
     "spawn_time": "04:10",
     "multipliers": null,
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Ground"
     ],
@@ -2875,6 +3186,10 @@ export default {
     "multipliers": [
       2.7,
       3.18
+    ],
+    "weather": [
+      "Sunny",
+      "Windy"
     ],
     "weaknesses": [
       "Fire",
@@ -2906,6 +3221,10 @@ export default {
     "avg_spawns": 1.4,
     "spawn_time": "12:34",
     "multipliers": null,
+    "weather": [
+      "Sunny",
+      "Windy"
+    ],
     "weaknesses": [
       "Fire",
       "Ice",
@@ -2936,6 +3255,9 @@ export default {
     "avg_spawns": 61,
     "spawn_time": "01:51",
     "multipliers": [1.67],
+    "weather": [
+      "Sunny"
+   ],
     "weaknesses": [
       "Water",
       "Grass",
@@ -2961,6 +3283,9 @@ export default {
     "avg_spawns": 2,
     "spawn_time": "03:59",
     "multipliers": null,
+    "weather": [
+      "Sunny"
+    ],
     "weaknesses": [
       "Water",
       "Grass",
@@ -2986,6 +3311,9 @@ export default {
     "avg_spawns": 2,
     "spawn_time": "03:59",
     "multipliers": null,
+    "weather": [
+      "Cloudy"
+    ],
     "weaknesses": [
       "Flying",
       "Psychic",
@@ -3007,6 +3335,9 @@ export default {
     "avg_spawns": 2.2,
     "spawn_time": "05:58",
     "multipliers": null,
+    "weather": [
+      "Cloudy"
+    ],
     "weaknesses": [
       "Flying",
       "Psychic",
@@ -3028,6 +3359,9 @@ export default {
     "avg_spawns": 1.1,
     "spawn_time": "02:46",
     "multipliers": null,
+    "weather": [
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Fighting"
     ]
@@ -3048,6 +3382,9 @@ export default {
     "avg_spawns": 20,
     "spawn_time": "08:16",
     "multipliers": [1.11],
+    "weather": [
+      "Cloudy",
+    ],
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -3072,6 +3409,9 @@ export default {
     "avg_spawns": 1.6,
     "spawn_time": "12:17",
     "multipliers": null,
+    "weather": [
+      "Cloudy"
+    ],
     "weaknesses": [
       "Ground",
       "Psychic"
@@ -3098,6 +3438,10 @@ export default {
     "avg_spawns": 63,
     "spawn_time": "03:21",
     "multipliers": [1.91],
+    "weather": [
+      "Sunny",
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Water",
       "Grass",
@@ -3127,6 +3471,10 @@ export default {
     "avg_spawns": 2.2,
     "spawn_time": "05:50",
     "multipliers": null,
+    "weather": [
+      "Sunny",
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Water",
       "Grass",
@@ -3155,6 +3503,9 @@ export default {
     "avg_spawns": 1.3,
     "spawn_time": "04:46",
     "multipliers": null,
+    "weather": [
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Fighting"
     ]
@@ -3174,6 +3525,9 @@ export default {
     "avg_spawns": 22.8,
     "spawn_time": "23:13",
     "multipliers": null,
+    "weather": [
+      "Sunny"
+    ],
     "weaknesses": [
       "Fire",
       "Ice",
@@ -3197,6 +3551,9 @@ export default {
     "avg_spawns": 0.86,
     "spawn_time": "02:40",
     "multipliers": null,
+    "weather": [
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Fighting"
     ]
@@ -3217,6 +3574,9 @@ export default {
     "avg_spawns": 113,
     "spawn_time": "02:53",
     "multipliers": [2.23],
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -3241,6 +3601,9 @@ export default {
     "avg_spawns": 3.4,
     "spawn_time": "03:18",
     "multipliers": null,
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -3269,6 +3632,9 @@ export default {
       2.15,
       2.2
     ],
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -3293,6 +3659,9 @@ export default {
     "avg_spawns": 8,
     "spawn_time": "05:21",
     "multipliers": null,
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -3321,6 +3690,9 @@ export default {
       2.38,
       2.41
     ],
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -3346,6 +3718,10 @@ export default {
     "avg_spawns": 3.4,
     "spawn_time": "06:57",
     "multipliers": null,
+    "weather": [
+      "Rainy",
+      "Windy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass",
@@ -3363,7 +3739,8 @@ export default {
     "name": "Mr. Mime",
     "img": "http://www.serebii.net/pokemongo/pokemon/122.png",
     "type": [
-      "Psychic"
+      "Psychic",
+      "Fairy"
     ],
     "height": "1.30 m",
     "weight": "54.5 kg",
@@ -3373,10 +3750,13 @@ export default {
     "avg_spawns": 0.31,
     "spawn_time": "01:51",
     "multipliers": null,
+    "weather": [
+      "Windy"
+    ],
     "weaknesses": [
-      "Bug",
+      "Poison",
       "Ghost",
-      "Dark"
+      "Steel"
     ]
   }, {
     "id": 123,
@@ -3395,6 +3775,10 @@ export default {
     "avg_spawns": 14,
     "spawn_time": "05:43",
     "multipliers": null,
+    "weather": [
+      "Rainy",
+      "Windy"
+    ],
     "weaknesses": [
       "Fire",
       "Electric",
@@ -3419,6 +3803,10 @@ export default {
     "avg_spawns": 35,
     "spawn_time": "05:41",
     "multipliers": null,
+    "weather": [
+      "Snow",
+      "Windy"
+    ],
     "weaknesses": [
       "Fire",
       "Bug",
@@ -3443,6 +3831,9 @@ export default {
     "avg_spawns": 7.4,
     "spawn_time": "04:28",
     "multipliers": null,
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Ground"
     ]
@@ -3462,6 +3853,9 @@ export default {
     "avg_spawns": 10,
     "spawn_time": "20:36",
     "multipliers": null,
+    "weather": [
+      "Sunny"
+    ],
     "weaknesses": [
       "Water",
       "Ground",
@@ -3483,6 +3877,9 @@ export default {
     "avg_spawns": 99,
     "spawn_time": "03:25",
     "multipliers": null,
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Fire",
       "Flying",
@@ -3504,6 +3901,9 @@ export default {
     "avg_spawns": 12,
     "spawn_time": "00:37",
     "multipliers": null,
+    "weather": [
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Fighting"
     ]
@@ -3526,6 +3926,9 @@ export default {
     "multipliers": [
       10.1,
       11.8
+    ],
+    "weather": [
+      "Rainy"
     ],
     "weaknesses": [
       "Electric",
@@ -3552,6 +3955,10 @@ export default {
     "avg_spawns": 0.32,
     "spawn_time": "02:15",
     "multipliers": null,
+    "weather": [
+      "Rainy",
+      "Windy"
+    ],
     "weaknesses": [
       "Electric",
       "Rock"
@@ -3577,6 +3984,10 @@ export default {
     "avg_spawns": 0.6,
     "spawn_time": "08:59",
     "multipliers": null,
+    "weather": [
+      "Rainy",
+      "Snow"
+    ],
     "weaknesses": [
       "Electric",
       "Grass",
@@ -3599,6 +4010,9 @@ export default {
     "avg_spawns": 0,
     "spawn_time": "N/A",
     "multipliers": null,
+    "weather": [
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Fighting"
     ]
@@ -3621,6 +4035,9 @@ export default {
     "multipliers": [
       2.02,
       2.64
+    ],
+    "weather": [
+      "Party cloudy"
     ],
     "weaknesses": [
       "Fighting"
@@ -3651,6 +4068,9 @@ export default {
     "avg_spawns": 1.4,
     "spawn_time": "10:54",
     "multipliers": null,
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass"
@@ -3675,6 +4095,9 @@ export default {
     "avg_spawns": 1.2,
     "spawn_time": "02:30",
     "multipliers": null,
+    "weather": [
+      "Rainy"
+    ],
     "weaknesses": [
       "Ground"
     ],
@@ -3698,6 +4121,9 @@ export default {
     "avg_spawns": 1.7,
     "spawn_time": "07:02",
     "multipliers": null,
+    "weather": [
+      "Sunny"
+    ],
     "weaknesses": [
       "Water",
       "Ground",
@@ -3723,6 +4149,9 @@ export default {
     "avg_spawns": 1.2,
     "spawn_time": "02:49",
     "multipliers": null,
+    "weather": [
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Fighting"
     ]
@@ -3744,6 +4173,10 @@ export default {
     "avg_spawns": 14,
     "spawn_time": "10:23",
     "multipliers": [2.12],
+    "weather": [
+      "Rainy",
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass",
@@ -3771,6 +4204,10 @@ export default {
     "avg_spawns": 0.61,
     "spawn_time": "05:04",
     "multipliers": null,
+    "weather": [
+      "Rainy",
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass",
@@ -3802,6 +4239,10 @@ export default {
       1.97,
       2.37
     ],
+    "weather": [
+      "Rainy",
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass",
@@ -3829,6 +4270,10 @@ export default {
     "avg_spawns": 0.32,
     "spawn_time": "23:40",
     "multipliers": null,
+    "weather": [
+      "Rainy",
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Electric",
       "Grass",
@@ -3856,6 +4301,10 @@ export default {
     "avg_spawns": 1.8,
     "spawn_time": "23:40",
     "multipliers": null,
+    "weather": [
+      "Windy",
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Water",
       "Electric",
@@ -3879,6 +4328,9 @@ export default {
     "avg_spawns": 1.6,
     "spawn_time": "23:40",
     "multipliers": null,
+    "weather": [
+      "Party cloudy"
+    ],
     "weaknesses": [
       "Fighting"
     ]
@@ -3899,6 +4351,10 @@ export default {
     "avg_spawns": 0,
     "spawn_time": "N/A",
     "multipliers": null,
+    "weather": [
+      "Windy",
+      "Snow"
+    ],
     "weaknesses": [
       "Fire",
       "Electric",
@@ -3922,6 +4378,10 @@ export default {
     "avg_spawns": 0,
     "spawn_time": "N/A",
     "multipliers": null,
+    "weather": [
+      "Windy",
+      "Rainy"
+    ],
     "weaknesses": [
       "Ice",
       "Rock"
@@ -3943,6 +4403,10 @@ export default {
     "avg_spawns": 0,
     "spawn_time": "N/A",
     "multipliers": null,
+    "weather": [
+      "Windy",
+      "Sunny"
+    ],
     "weaknesses": [
       "Water",
       "Electric",
@@ -3967,6 +4431,9 @@ export default {
     "multipliers": [
       1.83,
       1.84
+    ],
+    "weather": [
+      "Windy"
     ],
     "weaknesses": [
       "Ice",
@@ -3997,6 +4464,9 @@ export default {
     "avg_spawns": 2,
     "spawn_time": "11:57",
     "multipliers": [2.05],
+    "weather": [
+      "Windy"
+    ],
     "weaknesses": [
       "Ice",
       "Dragon",
@@ -4027,6 +4497,9 @@ export default {
     "avg_spawns": 0.11,
     "spawn_time": "23:38",
     "multipliers": null,
+    "weather": [
+      "Windy"
+    ],
     "weaknesses": [
       "Ice",
       "Rock",
@@ -4056,6 +4529,9 @@ export default {
     "avg_spawns": 0,
     "spawn_time": "N/A",
     "multipliers": null,
+    "weather": [
+      "Windy"
+    ],
     "weaknesses": [
       "Bug",
       "Ghost",
@@ -4077,6 +4553,9 @@ export default {
     "avg_spawns": 0,
     "spawn_time": "N/A",
     "multipliers": null,
+    "weather": [
+      "Windy"
+    ],
     "weaknesses": [
       "Bug",
       "Ghost",

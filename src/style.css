@@ -34,13 +34,10 @@
     align: center;
     box-shadow: blueviolet;
     height: auto;
-    resize: none;
     padding: 6rem;
     outline: none;
     border: solid 2px blue;
     border-radius: 3rem 3rem 3rem 3rem;
-    moz-border-radius: 3rem 3rem 3rem 3rem;
-    webkit-border-radius: 3rem 3rem 3rem 3rem;
     width: auto;  
     justify-content: center;
     align-items: center;
@@ -99,12 +96,6 @@
     
   }
 
-  #pokemonList{
-    margin-top: 20rem;
-  
-  }
-
-
   .container{
     width: 90% ;
     max-width: 850px;
@@ -121,14 +112,14 @@
     left: 0;
     top: 0;
     right: 0;
-    height: 30%;
+    height: 27%;
     z-index: 3;
 
   }
     .header a{
       color: blue;
       text-decoration: none;
-      padding: 0 2rem;
+      padding: 0 1rem;
       font-size: x-large;
       text-align: center;
     }
@@ -164,15 +155,16 @@
   padding-top: 10rem;
 }
   
-#footer {
+.footer {
   background-color: lightblue;
   opacity: 0.7;
-  padding: 6rem;
+  padding: 6rem 0;
   text-align: center;
   margin-left: 0;
   margin-top: 2rem;
   margin-right: 0;
   margin-bottom: 0;
+  
 }
 
 
@@ -181,8 +173,14 @@
   margin-top: 10rem;
 }
 
+#pokemonTarget{
+  padding: 20rem 0;
+  padding-bottom: 1em;
+  display: flexbox;
+}
+
 #pokemonList {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   padding: 2% 4%;
   box-sizing: border-box;
@@ -190,24 +188,207 @@
   align-content: center;
   text-align: center;
   width: 100%;
+  margin-top: 1rem;
 }
 .root {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
   margin: 15px;
-  width: 160px;
-  height: 195px;
+  width: 20em;
+  height: 25em;
   text-align: center;
   border-radius: 15px;
-  background: rgb(141, 183, 236);
-  box-shadow: blueviolet;
+  background: rgb(167, 201, 243);
+  box-shadow: blue;
   cursor: pointer;
   flex-direction: row;
-  border: solid blue 3px;
+  border: inset rgb(191, 24, 241) 4px;
   
 }
 
+
+/*#iconType {
+flex-direction: row;
+justify-content: space-around;
+
+}
+          .bugType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(30, 160, 30);
+            align-items: center;
+            border-radius: 15px;
+            justify-content: space-around;
+          }
+
+          .darkType {
+            display: inline-flex;            
+            flex-wrap: wrap;
+            border:solid rgb(52, 56, 52);
+            align-items: center;
+            border-radius: 15px;
+            justify-content: space-around;
+          }
+
+          .dragonType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid blue;
+            align-items: center;
+            border-radius: 15px;
+            justify-content: space-around;
+          }
+
+          .electricType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(235, 213, 23);
+            align-items: center;
+            border-radius: 15px;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+
+          .fairyType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(214, 123, 226);
+            align-items: center;
+            border-radius: 15px;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+
+          .fightingType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(143, 39, 21);
+            align-items: center;
+            border-radius: 15px;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+
+          .fireType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(226, 90, 27);
+            align-items: center;
+            border-radius: 15px;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+
+          .flyingtype {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(88, 165, 216);
+            align-items: center;
+            border-radius: 15px;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+
+          .ghostType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(96, 107, 206);
+            align-items: center;
+            border-radius: 15px;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+
+          .grassType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(16, 211, 16);
+            align-items: center;
+            border-radius: 15px;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+
+          .groundType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(122, 64, 16);
+            align-items: center;
+            border-radius: 15px;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+
+          .iceType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(21, 231, 231);
+            align-items: center;
+            border-radius: 15px;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+
+          .normalType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(114, 114, 114);
+            align-items: center;
+            border-radius: 15px;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+
+          .poisonType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(110, 2, 182);
+            align-items: center;
+            border-radius: 15px;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+
+          .psychicType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(168, 99, 87);
+            align-items: center;
+            border-radius: 15px;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+
+          .rockType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(211, 201, 117);
+            align-items: center;
+            border-radius: 15px;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+
+          .steelType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(16, 105, 128);
+            align-items: center;
+            border-radius: 15px;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+
+          .waterType {
+            display: inline-flex;
+            flex-wrap: wrap;
+            border:solid rgb(0, 135, 246);
+            align-items: center;
+            border-radius: 15px;
+            flex-direction: row;
+            justify-content: space-around;
+          }*/
 
 .selectbytype {
   height: 20px;

@@ -1,12 +1,24 @@
-import pokemon from "./data/pokemon/pokemon.js";
+//import pokemon from "./data/pokemon/pokemon.js";
 
-export function filterByType (pokeDatos, condition){
-  let pokemonBytype = pokeDatos.filter(
-    (pokemon) => pokemon.type === condition
-  );
-  return pokemonBytype
-}
+export const filterByType = (pokeDatos, type) => {
+  const newDataArray = []; //declara variable con array
+  for (let i = 0; i < pokeDatos.length; i += 1) { //loop que va recorriendo la data
+    newDataArray.push(pokeDatos[i]);
+    
+  }
+  return newDataArray.filter(pokemon => pokemon.type.includes(type))
+};
 
+
+  
+//FILTRAR POKEMON POR TIPO
+/*export const filterPokeType = (pokedata, tipo) => {//se declara constante con función de filtrar por tipo
+  const newDataArray = [];//  declara variable que contiene array         
+  for (let i = 0; i < pokedata.length; i += 1) {//bucle que recorre la data
+    newDataArray.push(pokedata[i]);//se sube nuevo array de data tomando el index(posición) de pokedata
+  }
+  return newDataArray.filter(poke => poke.type.includes(tipo));//retorna el nuevo array de data filtrado ??
+};*/
 
 /*función de filtrado
 export const filtered = (POKEMON,filterByType) => {
@@ -94,4 +106,4 @@ computeStats:(data) =>{
   return resultFilter;
 }
 */
-export default pokemon;
+//export default pokemon;

@@ -1,6 +1,6 @@
 # Data Lovers
 
-1.Pokemon Go
+1. Pokemon Go
 
 Pokémon GO es un videojuego de realidad aumentada basado en la localización desarrollado por Niantic,Inc.​ para dispositivos iOS y Android. Es un videojuego gratuito pero contiene microtransacciones.​ El juego consiste en buscar y capturar personajes de la saga Pokémon escondidos en ubicaciones del mundo real y luchar con ellos, lo que implica desplazarse físicamente por las calles de la ciudad para progresar. La aplicación comporta un elemento de interacción social, ya que promueve reuniones físicas de los usuarios en distintas ubicaciones de sus poblaciones.
 
@@ -51,28 +51,28 @@ para poder ir a la hora que se indique y no perder el tiempo durante el dia porq
 	Especificamente en el usario 3, solicita la vinculacion de cuentas, pero no es posible ya que no tenemos acceso a la plataforma de NIANTIC y además los desarrolladores no permiten este tipo de practicas, es decir, evitan el uso de aplicaciones externas para hacer estrategias y comparativas, por ende el jugador que sea sorprendido usando una app que no sea de niantic puede ser banneado o suspendida su cuenta. 
 
 
-PROTOTIPO DE BAJA FIDELIDAD
+3. PROTOTIPO DE BAJA FIDELIDAD
+
+<a href= "https://github.com/BarbaraMV/SCL013-data-lovers/blob/gh-pages/src/prototipo%201.jpg">
+<a href="https://github.com/BarbaraMV/SCL013-data-lovers/blob/gh-pages/src/prototipo2.jpg">
 
 
+4. PROTOTIPO DE ALTA FIDELIDAD
+<a href="https://www.figma.com/proto/nfWww8z00gRrogY2hCedna/Pokemaniaco?scaling=min-zoom&node-id=13%3A72">
 
-## 9. Checklist
+En el prototipo de alta fidelidad se agregan funciones a los botones para realizar pruebas de usuario acorde al tipo de usuario que buscamos.
 
-* [ ] Usa VanillaJS.
-* [ ] No hace uso de `this`.
-* [ ] Pasa linter (`npm run pretest`)
-* [ ] Pasa tests (`npm test`)
-* [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
-  lines y branches.
-* [ ] Incluye _Definición del producto_ clara e informativa en `README.md`.
-* [ ] Incluye historias de usuario en `README.md`.
-* [ ] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
-  `README.md`.
-* [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
-  en `README.md`.
-* [ ] Incluye link a Zeplin en `README.md`.
-* [ ] Incluye el listado de problemas que detectaste a través de tests de
-  usabilidad en el `README.md`.
-* [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
-* [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
-* [ ] UI: Permite filtrar data en base a una condición.
-* [ ] UI: Es _responsive_.
+
+4. DISEÑO FINAL
+
+Debido a los distintos comentarios que se recibio en MAZE se realizaron cambios en el diseño, buscando una pagina mas colorida, pero, a su vez mas simple en cuanto a los accesos de los botones en donde estarán situados en la parte superior de la pagina junto con el banner. Por lo mismo se decide sacar la imagen del prototipo y se pone un icono que es mas sobrio ya que irá junto con el menu seleccionable. 
+
+La pagina no tiene cambios de "screen" y se usa "scroll behavior" para desplazarse entre los distintos menu.
+
+5. FILTRADO
+
+La pagina Pokemaniaco esta enfocada netamente a la visualizacion rapida de los pokemones y detalles esenciales, ya sea como número de pokemon, nombre, tipo, debilidad, clima con el cual es mas frecuente su aparicion, y coste de caramelos para evolucionarlos.
+
+6. TEST
+
+La pagina pasa los test de usarios en cuanto al filtrado de los pokemon
