@@ -53,12 +53,12 @@ para poder ir a la hora que se indique y no perder el tiempo durante el dia porq
 
 3. PROTOTIPO DE BAJA FIDELIDAD
 
-<a href= "https://github.com/BarbaraMV/SCL013-data-lovers/blob/gh-pages/src/prototipo%201.jpg">
-<a href="https://github.com/BarbaraMV/SCL013-data-lovers/blob/gh-pages/src/prototipo2.jpg">
+<link a href= "https://github.com/BarbaraMV/SCL013-data-lovers/blob/gh-pages/src/prototipo%201.jpg">
+<link a href="https://github.com/BarbaraMV/SCL013-data-lovers/blob/gh-pages/src/prototipo2.jpg">
 
 
 4. PROTOTIPO DE ALTA FIDELIDAD
-<a href="https://www.figma.com/proto/nfWww8z00gRrogY2hCedna/Pokemaniaco?scaling=min-zoom&node-id=13%3A72">
+<link a href="https://www.figma.com/proto/nfWww8z00gRrogY2hCedna/Pokemaniaco?scaling=min-zoom&node-id=13%3A72">
 
 En el prototipo de alta fidelidad se agregan funciones a los botones para realizar pruebas de usuario acorde al tipo de usuario que buscamos.
 
