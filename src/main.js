@@ -63,8 +63,7 @@ function pokemonFilter (type) {
                   <br>
                   <h4>${arrData2[i].type} </h4>
                   <p>Debilidad: ${arrData2[i].weaknesses} </p>
-                  <p>Alto: ${arrData2[i].height} </p>
-                  <p> Peso: ${arrData2[i].weight} </p>
+                  <p> Clima: ${arrData2[i].weather} </p>
                   <p>Caramelos para evolucionar: ${arrData2[i].candy_count} </p>
                 </div>`;
               }
@@ -91,8 +90,7 @@ function printPokemon () {
           <br>
           <h4>${arrData[i].type} </h4>
           <p>Debilidad: ${arrData[i].weaknesses} </p>
-          <p>Alto: ${arrData[i].height} </p>
-          <p> Peso: ${arrData[i].weight} </p>
+          <p> Clima: ${arrData[i].weather} </p>
           <p>Caramelos para evolucionar: ${arrData[i].candy_count} </p>
         </div>`;
       }
@@ -123,7 +121,4 @@ const psychic = document.getElementById("Psyichic-btn");
 const rock = document.getElementById("Rock-btn");
 const steel = document.getElementById("Steel-btn");
 const water = document.getElementById("Water-btn");
-
-
 */
-

@@ -1,397 +1,378 @@
 *{
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-  }
-
-  
-  html {
-    text-align: center;
-    font-size: 80.5%; /*16px = 100%, 10px = 62.5% - 1rem = 10px*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-  }
-  
-  body {
-    background-image:url(https://vignette.wikia.nocookie.net/es.pokemon/images/5/50/Wiki-background/revision/latest?cb=20190616112909);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;  
-    margin top: 20rem;
-    padding: 15rem;
-    background-position: 0 15rem;
-    display: flexbox;
-  }
-  
-  
-  #welcome-box {
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6bcb9f6e-4d73-40fa-b677-0b3e63e3521e/d5nhuuq-79a016a3-c066-4ac1-9d1a-6ff2b79f7569.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNmJjYjlmNmUtNGQ3My00MGZhLWI2NzctMGIzZTYzZTM1MjFlXC9kNW5odXVxLTc5YTAxNmEzLWMwNjYtNGFjMS05ZDFhLTZmZjJiNzlmNzU2OS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WiO4Ln-nl5Z-DVkDYoJGqLRsg_SJIfhfgGbXfen5UAo);
-    background-size: contain;
-    font-size: x-large;
-    align: center;
-    box-shadow: blueviolet;
-    height: auto;
-    padding: 6rem;
-    outline: none;
-    border: solid 2px blue;
-    border-radius: 3rem 3rem 3rem 3rem;
-    width: auto;  
-    justify-content: center;
-    align-items: center;
-    flex-flow: column; 
-    display: flexbox;
-    margin-top: 3rem;
-  }
-  
- #selectTypes {
-    background-color: lightblue;
-    padding: 1rem;
-    margin: 1rem;
-    /*outline: none; to disable square-shaped transparent outline*/
-    border: solid 2px blue;
-    border-radius: 3rem 3rem 3rem 3rem;
-    moz-border-radius: 3rem 3rem 3rem 3rem;
-    webkit-border-radius: 3rem 3rem 3rem 3rem;
-    width: 15rem;
-    display: flexbox;
-  
-  }
-  
-  #search-btn, #searchGo-btn, #searchInput {
-    background-color: lightblue;
-    padding: 1rem;
-    margin: 0;
-    outline: none; /*to disable square-shaped transparent outline*/
-    border: solid 2px blue;
-    border-radius: 5.7rem 5.7rem 5.7rem 5.7rem;
-    moz-border-radius: 5.7rem 5.7rem 5.7rem 5.7rem;
-    webkit-border-radius: 5.7rem 5.7rem 5.7rem 5.7rem;
-    width: display area;
-        
-    }
-  
-  #user-box {
-    background-color: lightblue;
-    background-size: contain;
-    font-size: x-large;
-    align: center;
-    box-shadow: blueviolet;
-    height: auto;
-    resize: none;
-    padding: 6rem;
-    outline: none;
-    border: solid 2px blue;
-    border-radius: 3rem 3rem 3rem 3rem;
-    moz-border-radius: 3rem 3rem 3rem 3rem;
-    webkit-border-radius: 3rem 3rem 3rem 3rem;
-    width:  auto ;  
-    justify-content: center;
-    align-items: center;
-    flex-flow: column; 
-    display: flexbox;
-    opacity: 0.7;
-    
-  }
-
-  .container{
-    width: 90% ;
-    max-width: 850px;
-    margin:0 auto;
-  }
-
-  .header {
-    background-image: url(https://image.freepik.com/vector-gratis/fondo-blanco-hexagono-tecnologia-azul_1017-19366.jpg);
-    background-size: contain;
-    padding: 1rem 0;
-    text-decoration: none;
-    /*como dejar la cabecera fija */
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    height: 27%;
-    z-index: 3;
-
-  }
-    .header a{
-      color: blue;
-      text-decoration: none;
-      padding: 0 1rem;
-      font-size: x-large;
-      text-align: center;
-    }
-
-  .logo-nav-container {
-    display: flex;
-    justify-content: stretch;
-    align-items: center;
-    
-  }
-
-  .navigation ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-    .navigation ul li{
-      display: inline-block;
-      height: 4em;
-    }
-    
-      .navigation ul li a {
-        display: block;
-        padding: 1rem 1rem;
-        transition: all 0.4s linear;
-        border-radius: 5px;
-      }
-        .navigation ul li a:hover {
-          background-color: rgba(36, 140, 209, 0.753);
-        }
-.containerbox {
-  padding-top: 10rem;
-}
-  
-.footer {
-  background-color: lightblue;
-  opacity: 0.7;
-  padding: 6rem 0;
-  text-align: center;
+  margin-top: 0;
   margin-left: 0;
-  margin-top: 2rem;
   margin-right: 0;
-  margin-bottom: 0;
+  padding: 0;
+  box-sizing: border-box;
   
+}
+
+
+html {
+  text-align: center;
+  font-size: 80.5%; /*16px = 100%, 10px = 62.5% - 1rem = 10px*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+body {
+  background-image:url(https://vignette.wikia.nocookie.net/es.pokemon/images/5/50/Wiki-background/revision/latest?cb=20190616112909);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+  margin top: 20rem;
+  padding: 15rem;
+  background-position: 0 15rem;
+  display: flexbox;
+}
+
+
+#welcome-box {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6bcb9f6e-4d73-40fa-b677-0b3e63e3521e/d5nhuuq-79a016a3-c066-4ac1-9d1a-6ff2b79f7569.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNmJjYjlmNmUtNGQ3My00MGZhLWI2NzctMGIzZTYzZTM1MjFlXC9kNW5odXVxLTc5YTAxNmEzLWMwNjYtNGFjMS05ZDFhLTZmZjJiNzlmNzU2OS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WiO4Ln-nl5Z-DVkDYoJGqLRsg_SJIfhfgGbXfen5UAo);
+  background-size: contain;
+  font-size: x-large;
+  align: center;
+  box-shadow: blueviolet;
+  height: auto;
+  padding: 6rem;
+  outline: none;
+  border: solid 2px blue;
+  border-radius: 3rem 3rem 3rem 3rem;
+  width: auto;  
+  justify-content: center;
+  align-items: center;
+  flex-flow: column; 
+  display: flexbox;
+  margin-top: 3rem;
+}
+
+#selectTypes {
+  background-color: lightblue;
+  padding: 1rem;
+  margin: 1rem;
+  /*outline: none; to disable square-shaped transparent outline*/
+  border: solid 2px blue;
+  border-radius: 3rem 3rem 3rem 3rem;
+  moz-border-radius: 3rem 3rem 3rem 3rem;
+  webkit-border-radius: 3rem 3rem 3rem 3rem;
+  width: 15rem;
+  display: flexbox;
+
+}
+
+#search-btn, #searchGo-btn, #searchInput {
+  background-color: lightblue;
+  padding: 1rem;
+  margin: 0;
+  outline: none; /*to disable square-shaped transparent outline*/
+  border: solid 2px blue;
+  border-radius: 5.7rem 5.7rem 5.7rem 5.7rem;
+  moz-border-radius: 5.7rem 5.7rem 5.7rem 5.7rem;
+  webkit-border-radius: 5.7rem 5.7rem 5.7rem 5.7rem;
+  width: display area;
+      
+  }
+
+#user-box {
+  background-color: lightblue;
+  background-size: contain;
+  font-size: x-large;
+  align: center;
+  box-shadow: blueviolet;
+  height: auto;
+  resize: none;
+  padding: 6rem;
+  outline: none;
+  border: solid 2px blue;
+  border-radius: 3rem 3rem 3rem 3rem;
+  moz-border-radius: 3rem 3rem 3rem 3rem;
+  webkit-border-radius: 3rem 3rem 3rem 3rem;
+  width:  auto ;  
+  justify-content: center;
+  align-items: center;
+  flex-flow: column; 
+  display: flexbox;
+  opacity: 0.7;
+  
+}
+
+.container{
+  width: 90% ;
+  max-width: 850px;
+  margin:0 auto;
+}
+
+.header {
+  background-image: url(https://image.freepik.com/vector-gratis/fondo-blanco-hexagono-tecnologia-azul_1017-19366.jpg);
+  background-size: contain;
+  padding: 1rem 0;
+  text-decoration: none;
+  /*como dejar la cabecera fija */
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 27%;
+  z-index: 3;
+
+}
+  .header a{
+    color: blue;
+    text-decoration: none;
+    padding: 0 1rem;
+    font-size: x-large;
+    text-align: center;
+  }
+
+.logo-nav-container {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+  .navigation ul li{
+    display: inline-block;
+    height: 4em;
+  }
+  
+    .navigation ul li a {
+      display: block;
+      padding: 1rem 1rem;
+      transition: all 0.4s linear;
+      border-radius: 5px;
+    }
+      .navigation ul li a:hover {
+        background-color: rgba(36, 140, 209, 0.753);
+      }
+.containerbox {
+padding-top: 10rem;
+}
+
+.footer {
+background-color: lightblue;
+opacity: 0.7;
+padding: 6rem 0;
+text-align: center;
+margin-left: 0;
+margin-top: 2rem;
+margin-right: 0;
+margin-bottom: 0;
+
 }
 
 
 .containerguide {
-  padding-top: 20rem;
-  margin-top: 10rem;
+padding-top: 20rem;
+margin-top: 10rem;
 }
 
 #pokemonTarget{
-  padding: 20rem 0;
-  padding-bottom: 1em;
-  display: flexbox;
+padding: 20rem 0;
+padding-bottom: 1em;
+display: flexbox;
 }
 
 #pokemonList {
-  display: inline-flex;
-  flex-wrap: wrap;
-  padding: 2% 4%;
-  box-sizing: border-box;
-  justify-content: space-around;
-  align-content: center;
-  text-align: center;
-  width: 100%;
-  margin-top: 1rem;
+display: inline-flex;
+flex-wrap: wrap;
+padding: 2% 4%;
+box-sizing: border-box;
+justify-content: space-around;
+align-content: center;
+text-align: center;
+width: 100%;
+margin-top: 1rem;
 }
 .root {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-  margin: 15px;
-  width: 20em;
-  height: 25em;
-  text-align: center;
-  border-radius: 15px;
-  background: rgb(167, 201, 243);
-  box-shadow: blue;
-  cursor: pointer;
-  flex-direction: row;
-  border: inset rgb(191, 24, 241) 4px;
-  
+display: flex;
+flex-wrap: wrap;
+padding: 10px;
+margin: 15px;
+width: 20em;
+height: 25em;
+text-align: center;
+border-radius: 15px;
+background: rgb(167, 201, 243);
+box-shadow: blue;
+cursor: pointer;
+flex-direction: row;
+border: inset rgb(191, 24, 241) 4px;
+
 }
 
 
 /*#iconType {
 flex-direction: row;
 justify-content: space-around;
-
 }
-          .bugType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(30, 160, 30);
-            align-items: center;
-            border-radius: 15px;
-            justify-content: space-around;
-          }
-
-          .darkType {
-            display: inline-flex;            
-            flex-wrap: wrap;
-            border:solid rgb(52, 56, 52);
-            align-items: center;
-            border-radius: 15px;
-            justify-content: space-around;
-          }
-
-          .dragonType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid blue;
-            align-items: center;
-            border-radius: 15px;
-            justify-content: space-around;
-          }
-
-          .electricType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(235, 213, 23);
-            align-items: center;
-            border-radius: 15px;
-            flex-direction: row;
-            justify-content: space-around;
-          }
-
-          .fairyType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(214, 123, 226);
-            align-items: center;
-            border-radius: 15px;
-            flex-direction: row;
-            justify-content: space-around;
-          }
-
-          .fightingType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(143, 39, 21);
-            align-items: center;
-            border-radius: 15px;
-            flex-direction: row;
-            justify-content: space-around;
-          }
-
-          .fireType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(226, 90, 27);
-            align-items: center;
-            border-radius: 15px;
-            flex-direction: row;
-            justify-content: space-around;
-          }
-
-          .flyingtype {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(88, 165, 216);
-            align-items: center;
-            border-radius: 15px;
-            flex-direction: row;
-            justify-content: space-around;
-          }
-
-          .ghostType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(96, 107, 206);
-            align-items: center;
-            border-radius: 15px;
-            flex-direction: row;
-            justify-content: space-around;
-          }
-
-          .grassType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(16, 211, 16);
-            align-items: center;
-            border-radius: 15px;
-            flex-direction: row;
-            justify-content: space-around;
-          }
-
-          .groundType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(122, 64, 16);
-            align-items: center;
-            border-radius: 15px;
-            flex-direction: row;
-            justify-content: space-around;
-          }
-
-          .iceType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(21, 231, 231);
-            align-items: center;
-            border-radius: 15px;
-            flex-direction: row;
-            justify-content: space-around;
-          }
-
-          .normalType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(114, 114, 114);
-            align-items: center;
-            border-radius: 15px;
-            flex-direction: row;
-            justify-content: space-around;
-          }
-
-          .poisonType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(110, 2, 182);
-            align-items: center;
-            border-radius: 15px;
-            flex-direction: row;
-            justify-content: space-around;
-          }
-
-          .psychicType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(168, 99, 87);
-            align-items: center;
-            border-radius: 15px;
-            flex-direction: row;
-            justify-content: space-around;
-          }
-
-          .rockType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(211, 201, 117);
-            align-items: center;
-            border-radius: 15px;
-            flex-direction: row;
-            justify-content: space-around;
-          }
-
-          .steelType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(16, 105, 128);
-            align-items: center;
-            border-radius: 15px;
-            flex-direction: row;
-            justify-content: space-around;
-          }
-
-          .waterType {
-            display: inline-flex;
-            flex-wrap: wrap;
-            border:solid rgb(0, 135, 246);
-            align-items: center;
-            border-radius: 15px;
-            flex-direction: row;
-            justify-content: space-around;
-          }*/
+        .bugType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(30, 160, 30);
+          align-items: center;
+          border-radius: 15px;
+          justify-content: space-around;
+        }
+        .darkType {
+          display: inline-flex;            
+          flex-wrap: wrap;
+          border:solid rgb(52, 56, 52);
+          align-items: center;
+          border-radius: 15px;
+          justify-content: space-around;
+        }
+        .dragonType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid blue;
+          align-items: center;
+          border-radius: 15px;
+          justify-content: space-around;
+        }
+        .electricType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(235, 213, 23);
+          align-items: center;
+          border-radius: 15px;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .fairyType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(214, 123, 226);
+          align-items: center;
+          border-radius: 15px;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .fightingType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(143, 39, 21);
+          align-items: center;
+          border-radius: 15px;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .fireType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(226, 90, 27);
+          align-items: center;
+          border-radius: 15px;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .flyingtype {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(88, 165, 216);
+          align-items: center;
+          border-radius: 15px;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .ghostType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(96, 107, 206);
+          align-items: center;
+          border-radius: 15px;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .grassType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(16, 211, 16);
+          align-items: center;
+          border-radius: 15px;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .groundType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(122, 64, 16);
+          align-items: center;
+          border-radius: 15px;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .iceType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(21, 231, 231);
+          align-items: center;
+          border-radius: 15px;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .normalType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(114, 114, 114);
+          align-items: center;
+          border-radius: 15px;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .poisonType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(110, 2, 182);
+          align-items: center;
+          border-radius: 15px;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .psychicType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(168, 99, 87);
+          align-items: center;
+          border-radius: 15px;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .rockType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(211, 201, 117);
+          align-items: center;
+          border-radius: 15px;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .steelType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(16, 105, 128);
+          align-items: center;
+          border-radius: 15px;
+          flex-direction: row;
+          justify-content: space-around;
+        }
+        .waterType {
+          display: inline-flex;
+          flex-wrap: wrap;
+          border:solid rgb(0, 135, 246);
+          align-items: center;
+          border-radius: 15px;
+          flex-direction: row;
+          justify-content: space-around;
+        }*/
 
 .selectbytype {
-  height: 20px;
-  display: flex;
+height: 20px;
+display: flex;
 }
-

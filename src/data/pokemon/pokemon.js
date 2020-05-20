@@ -1198,6 +1198,10 @@ export default {
     "avg_spawns": 39,
     "spawn_time": "08:46",
     "multipliers": [1.85],
+    "weather": [
+      "Parcial cloudy",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Poison",
       "Steel"
@@ -1223,6 +1227,10 @@ export default {
     "avg_spawns": 1.8,
     "spawn_time": "12:28",
     "multipliers": null,
+    "weather": [
+      "Parcial cloudy",
+      "Cloudy"
+    ],
     "weaknesses": [
       "Poison",
       "Steel"
@@ -2307,7 +2315,7 @@ export default {
     ],
     "weather": [
       "Sunny",
-      "Party cloud"
+      "Party cloudy"
     ],
     "weaknesses": [
       "Water",
@@ -2347,7 +2355,7 @@ export default {
     ],
     "weather": [
       "Sunny",
-      "Party cloud"
+      "Party cloudy"
     ],
     "weaknesses": [
       "Water",
@@ -2384,7 +2392,7 @@ export default {
     "multipliers": null,
     "weather": [
       "Sunny",
-      "Party cloud"
+      "Party cloudy"
     ],
     "weaknesses": [
       "Water",
