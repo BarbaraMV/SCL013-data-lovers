@@ -191,12 +191,12 @@ width: 100%;
 margin-top: 1rem;
 }
 .root {
-display: flex;
+display: inline-block;
 flex-wrap: wrap;
 padding: 10px;
 margin: 15px;
 width: 20em;
-height: 25em;
+height: 27em;
 text-align: center;
 border-radius: 15px;
 background: rgb(167, 201, 243);

@@ -15,17 +15,11 @@ const pokemonesChart = document.getElementById("pokemonList");
 for(let i=0; i<arrData.length; i++){
   pokemonesChart.innerHTML+= `<div class="root">
     <h3>#${arrData[i].num}</h3>
-    <br>
     <h4>${arrData[i].name}</h4>
-    <br>
     <img src="${arrData[i].img}" alt="" class="imgPoke">
-    <br>
     <h4 class=typePokemon>${arrData[i].type}</h4>
-    <br>
     <p>Debilidad: ${arrData[i].weaknesses}</p>
-    <br>
     <p>Clima: ${arrData[i].weather}</p>
-    <br>
     <p>Caramelos para evolucionar: ${arrData[i].candy_count}</p>
   </div>`;
 }
